@@ -1,0 +1,718 @@
+# Croatian translation for restricted-manager
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the restricted-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: restricted-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-28 16:00-0430\n"
+"PO-Revision-Date: 2010-08-28 17:50+0000\n"
+"Last-Translator: Saša Teković <Unknown>\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
+"X-Generator: Launchpad (build 14900)\n"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:1
+#, fuzzy
+msgid "Monitor new hardware drivers"
+msgstr "Provjeri za nove upravljačke programe"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:2
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:2
+msgid "Notify about new hardware drivers available for the system"
+msgstr "Obavijesti o dostupnosti novih upravljačkih programa za sustav"
+
+#: ../data/handlers/dvb_usb_firmware.py:21
+msgid "Firmware for DVB cards"
+msgstr ""
+
+#: ../data/handlers/fglrx.py:23
+#, fuzzy
+msgid "ATI/AMD proprietary FGLRX graphics driver (post-release updates)"
+msgstr "ATI/AMD neslobodni FGLRX upravljački program grafičke kartice"
+
+#: ../data/handlers/fglrx.py:25
+msgid "ATI/AMD proprietary FGLRX graphics driver"
+msgstr "ATI/AMD neslobodni FGLRX upravljački program grafičke kartice"
+
+#: ../data/handlers/fglrx.py:31
+msgid "3D-accelerated proprietary graphics driver for ATI cards."
+msgstr "3D-ubrzani, neslobodni upravljački program za ATI grafičke kartice."
+
+#: ../data/handlers/fglrx.py:33
+msgid ""
+"This driver is required to fully utilise the 3D potential of some ATI "
+"graphics cards, as well as provide 2D acceleration of newer cards."
+msgstr ""
+"Ovaj je upravljački program potreban za potpuno iskorištavanje 3D "
+"potencijala nekih ATI grafičkih kartica, a potreban je i za omogućavanje 2D "
+"mogućnosti novijih kartica."
+
+#: ../jockey/ui/__init__.py:117
+msgid ""
+"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
+"jockey without it."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:128 ../jockey/ui/__init__.py:141
+msgid "Searching for available drivers..."
+msgstr "Pretraživanje dostupnih upravljačkih programa"
+
+#: ../jockey/ui/__init__.py:166
+msgid "Component"
+msgstr "Komponenta"
+
+#: ../jockey/ui/__init__.py:167
+msgid "_Enable"
+msgstr "_Omogući"
+
+#: ../jockey/ui/__init__.py:168
+msgid "_Disable"
+msgstr "O_nemogući"
+
+#: ../jockey/ui/__init__.py:169
+msgid "_Ignore"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:170
+msgid "_Notify"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:171
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: ../jockey/ui/__init__.py:172
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: ../jockey/ui/__init__.py:173
+msgid "Status"
+msgstr "Stanje"
+
+#: ../jockey/ui/__init__.py:174
+msgid "Needs computer restart"
+msgstr "Zahtijeva ponovno pokretanje računala"
+
+#: ../jockey/ui/__init__.py:175
+msgid "In use"
+msgstr "U uporabi"
+
+#: ../jockey/ui/__init__.py:176
+msgid "Not in use"
+msgstr "Nije u uporabi"
+
+#: ../jockey/ui/__init__.py:177
+msgid "License:"
+msgstr "Licenca:"
+
+#: ../jockey/ui/__init__.py:178
+msgid "details"
+msgstr "detalji"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:180
+msgid "Free"
+msgstr "Slobodan"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:182
+msgid "Proprietary"
+msgstr "Neslobodan"
+
+#: ../jockey/ui/__init__.py:183
+msgid "Download in progress"
+msgstr "Preuzimanje u tijeku"
+
+#: ../jockey/ui/__init__.py:184
+msgid "Unknown driver"
+msgstr "Nepoznati upravljački program"
+
+#: ../jockey/ui/__init__.py:185
+msgid "You are not authorized to perform this action."
+msgstr "Nemate ovlasti za obavljanje ove radnje."
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:187
+#, python-format
+msgid "Tested by the %s developers"
+msgstr "Testirali %s razvojni programeri"
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:189
+#, python-format
+msgid "Not tested by the %s developers"
+msgstr "Nisu testirali %s razvojni programeri"
+
+#. this is used when one version of a driver is recommended over others
+#: ../jockey/ui/__init__.py:191
+msgid "Recommended"
+msgstr "Preporučeno"
+
+#: ../jockey/ui/__init__.py:192
+msgid "License Text for Device Driver"
+msgstr "Licenčni tekst za upravljački program"
+
+#: ../jockey/ui/__init__.py:193
+msgid "Install Drivers"
+msgstr "Instaliraj upravljačke programe"
+
+#: ../jockey/ui/__init__.py:202
+msgid "Restricted Additional Drivers"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:204 ../jockey/ui/__init__.py:592
+#: ../jockey/ui/__init__.py:600 ../jockey/ui/__init__.py:608
+#: ../jockey/ui/__init__.py:850 ../jockey/ui/gtk/jockey-gtk.desktop.in.h:1
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:1
+msgid "Additional Drivers"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:214
+msgid "Driver search results"
+msgstr "Rezultati pretrage upravljačkog programa"
+
+#: ../jockey/ui/__init__.py:230
+msgid "Proprietary drivers are being used to make this computer work properly."
+msgstr ""
+"Kako bi ovo računalo ispravno radilo, koriste se neslobodni upravljački "
+"programi."
+
+#: ../jockey/ui/__init__.py:233
+msgid "No proprietary drivers are in use on this system."
+msgstr "Na ovom se računalu ne koriste neslobodni upravljački programi."
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:239
+#, python-format
+msgid ""
+"Proprietary drivers do not have public source code that %(os)s developers "
+"are free to modify. Security updates and corrections depend solely on the "
+"responsiveness of the manufacturer. %(os)s cannot fix or improve these "
+"drivers."
+msgstr ""
+"Vlasnički upravljački programi nemaju javno dostupan izvorni kôd koji %(os)s "
+"razvijatelji mogu modificirati. Sigurnosne dopune i nadogradnje ovise "
+"isključivo o proizvođaču. %(os)s ne može popraviti ili poboljšati ove "
+"upravljačke programe."
+
+#: ../jockey/ui/__init__.py:252
+msgid "Graphics driver"
+msgstr "Upravljački program grafičke kartice"
+
+#: ../jockey/ui/__init__.py:254
+msgid "Firmware"
+msgstr "Ugrađeni softver"
+
+#: ../jockey/ui/__init__.py:256
+msgid "Device driver"
+msgstr "Upravljački program uređaja"
+
+#: ../jockey/ui/__init__.py:266
+#, python-format
+msgid "version %s"
+msgstr "inačica %s"
+
+#: ../jockey/ui/__init__.py:327
+msgid "_Remove"
+msgstr "_Ukloni"
+
+#: ../jockey/ui/__init__.py:329
+msgid "_Deactivate"
+msgstr "_Deaktiviraj"
+
+#: ../jockey/ui/__init__.py:332
+msgid "This driver is activated and currently in use."
+msgstr "Ovaj upravljački program je aktiviran i trenutno je u uporabi."
+
+#: ../jockey/ui/__init__.py:336
+msgid "You need to restart the computer to activate this driver."
+msgstr ""
+"Da biste aktivirali ovaj upravljački program, trebate ponovno pokrenuti "
+"računalo."
+
+#: ../jockey/ui/__init__.py:338
+msgid "This driver is activated but not currently in use."
+msgstr "Ovaj upravljački program je aktiviran, ali trenutno nije u uporabi."
+
+#: ../jockey/ui/__init__.py:340
+msgid "_Activate"
+msgstr "_Aktiviraj"
+
+#: ../jockey/ui/__init__.py:344
+msgid "This driver was just disabled, but is still in use."
+msgstr ""
+"Ovaj upravljački program je upravo deaktiviran, ali je još uvijek u uporabi."
+
+#: ../jockey/ui/__init__.py:346
+msgid "A different version of this driver is in use."
+msgstr "U uporabi je drugačija inačica ovog upravljačkog programa."
+
+#: ../jockey/ui/__init__.py:349
+#, fuzzy
+msgid "This driver is not activated and is ignored in notifications."
+msgstr "Ovaj upravljački program je aktiviran i trenutno je u uporabi."
+
+#: ../jockey/ui/__init__.py:352
+msgid "This driver is not activated."
+msgstr "Ovaj upravljački program nije aktiviran."
+
+#: ../jockey/ui/__init__.py:372
+msgid "Check for newly used or usable drivers and notify the user."
+msgstr ""
+"Provjeri za nedavno korištene ili upotrebljive upravljačke programe, te "
+"obavijesti korisnika."
+
+#: ../jockey/ui/__init__.py:375
+msgid "Query driver databases for newly available or updated drivers."
+msgstr "Pretraži bazu podataka za novije upravljačke programe."
+
+#: ../jockey/ui/__init__.py:378
+msgid "List available drivers and their status."
+msgstr "Prikaži dostupne upravljačke programe i njihovo stanje."
+
+#: ../jockey/ui/__init__.py:381
+msgid "Enable drivers that can be automatically installed."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:384
+msgid "List hardware identifiers from this system."
+msgstr "Prikaži hardverske identifikatore iz ovog sustava."
+
+#: ../jockey/ui/__init__.py:387
+msgid "Enable a driver"
+msgstr "Omogući upravljački program"
+
+#: ../jockey/ui/__init__.py:390
+msgid "Disable a driver"
+msgstr "Onemogući upravljački program"
+
+#: ../jockey/ui/__init__.py:393
+msgid "Ask for confirmation for --enable/--disable"
+msgstr "Pitaj za potvrdi za --enable/--disable"
+
+#: ../jockey/ui/__init__.py:396
+msgid ""
+"Check if there is a graphics driver available that supports composite and "
+"offer to enable it"
+msgstr ""
+"Provjeri postoji li upravljački program grafičke kartice koji podržava "
+"'composite' i ponudi omogućavanje istog"
+
+#: ../jockey/ui/__init__.py:401
+msgid ""
+"Only manage free/nonfree drivers. By default, all available drivers with any "
+"license are presented."
+msgstr ""
+"Upravljaj samo slobodnim/neslobodnim upravljačkim programima. Prema zadanim "
+"postavkama, prikazani su svi dostupni upravljački programi, bez obzira na "
+"licencu."
+
+#: ../jockey/ui/__init__.py:405
+msgid "Run as session D-BUS server."
+msgstr "Pokreni kao sesiju D-BUS poslužitelja."
+
+#: ../jockey/ui/__init__.py:407
+msgid ""
+"Do not use D-BUS for communicating with the backend. Needs root privileges."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:409
+msgid ""
+"Use a different target kernel version than the currently running one. This "
+"is only relevant with --no-dbus."
+msgstr ""
+"Koristi drugačiju ciljanu inačicu kernela od trenutno aktivne. Relevantno je "
+"samo sa --no-dbus."
+
+#: ../jockey/ui/__init__.py:549
+msgid "Restricted drivers available"
+msgstr "Dostupni su neslobodni upravljački programi"
+
+#: ../jockey/ui/__init__.py:550
+msgid ""
+"In order to use your hardware more efficiently, you can enable drivers which "
+"are not free software."
+msgstr ""
+"Za učinkovitije korištenje hardvera, možete omogućiti neslobodne upravljačke "
+"programe."
+
+#: ../jockey/ui/__init__.py:553
+msgid "New drivers available"
+msgstr "Dostupni su novi upravljački programi"
+
+#: ../jockey/ui/__init__.py:554
+msgid "There are new or updated drivers available for your hardware."
+msgstr "Dostupni su novi ili nadograđeni upravljački programi za vaš hardver."
+
+#: ../jockey/ui/__init__.py:558
+msgid "New restricted drivers in use"
+msgstr "Novi, neslobodni upravljački programi u uporabi"
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:561
+#, python-format
+msgid ""
+"In order for this computer to function properly, %(os)s is using driver "
+"software that cannot be supported by %(os)s."
+msgstr ""
+"Kako bi računalo ispravno radilo, %(os)s koristi upravljački program kojeg "
+"%(os)s ne može podržati."
+
+#: ../jockey/ui/__init__.py:587
+msgid ""
+"There is no available graphics driver for your system which supports the "
+"composite extension, or the current one already supports it."
+msgstr ""
+"Nema dostupnih upravljačkih programa grafičke kartice za vaš sustav koji "
+"podržava 'composite' proširenje ili ga jedan od trenutnih upravljačkih "
+"programa već podržava."
+
+#: ../jockey/ui/__init__.py:593
+msgid "Downloading and installing driver..."
+msgstr "Preuzimanje i instaliranje upravljačkog programa..."
+
+#: ../jockey/ui/__init__.py:601
+msgid "Removing driver..."
+msgstr "Uklanjanje upravljačkog programa..."
+
+#: ../jockey/ui/__init__.py:609
+msgid "Downloading and updating package indexes..."
+msgstr "Preuzimanje i ažuriranje indeksa paketa..."
+
+#: ../jockey/ui/__init__.py:631
+msgid "Use --list to see available drivers"
+msgstr "Koristite --list kako biste vidjeli sve dostupne upravljačke programe"
+
+#: ../jockey/ui/__init__.py:649
+msgid "Cannot change driver"
+msgstr "Nije moguće promjeniti upravljački program"
+
+#: ../jockey/ui/__init__.py:662
+msgid "Enable driver?"
+msgstr "Omogućiti upravljački program?"
+
+#: ../jockey/ui/__init__.py:665
+msgid "Disable driver?"
+msgstr "Onemogućiti upravljački program?"
+
+#: ../jockey/ui/__init__.py:698
+msgid "Sorry, the Jockey backend crashed. Please file a bug at:"
+msgstr ""
+"Isprike, ali Jockeyjeva pozadina se srušila. Molim prijavite grešku pri:"
+
+#: ../jockey/ui/__init__.py:699
+msgid "Trying to recover by restarting backend."
+msgstr "Pokušaj oporavka ponovnim pokretanjem pozadine."
+
+#: ../jockey/ui/__init__.py:717
+msgid "Sorry, installation of this driver failed."
+msgstr "Žalim, instalacija ovog upravljačkog programa nije uspjela."
+
+#: ../jockey/ui/__init__.py:718
+msgid "Please have a look at the log file for details"
+msgstr "Molim provjerite datoteku zapisnika za detalje"
+
+#: ../jockey/ui/__init__.py:722
+msgid "Installation Successful"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:781
+msgid "Download error"
+msgstr "Greška pri preuzimanju"
+
+#: ../jockey/ui/__init__.py:908
+msgid ""
+"Downloading package indexes failed, please check your network status. Most "
+"drivers will not be available."
+msgstr ""
+"Preuzimanje indeksa paketa nije uspjelo, molim provjerite stanje mreže. "
+"Većina upravljačkih programa neće biti dostupna."
+
+#: ../jockey/ui/__init__.py:978
+#, python-format
+msgid "Searching driver for %s..."
+msgstr "Pretraživanje upravljačkog programa za %s..."
+
+#: ../jockey/ui/gtk/jockey-gtk.desktop.in.h:2
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:2
+msgid "Configure third-party and proprietary drivers"
+msgstr ""
+"Podesi neslobodne upravljačke programe i upravljačke programe treće strane"
+
+#: ../jockey/ui/text/jockey-text:72
+msgid "Please enter 'y' or 'n' and press Enter"
+msgstr "Molim unesite 'y' ili 'n' i pritisnite Enter"
+
+#. translators: %s is the path to xorg.conf
+#: ../jockey/xorg_driver.py:99
+#, python-format
+msgid "Reconfiguring X.org video drivers is not possible: %s is invalid."
+msgstr ""
+"Ponovno podešavanje X.org video upravljačkog programa nije moguće: %s je "
+"neispravan."
+
+#: ../data/handlers/pvr-omap4.py:99
+#, fuzzy
+msgid "PowerVR SGX proprietary graphics driver for OMAP 4"
+msgstr "3D-ubrzani, neslobodni upravljački program za ATI grafičke kartice."
+
+#: ../data/handlers/pvr-omap4.py:103
+#, fuzzy
+msgid "3D-accelerated proprietary graphics driver for OMAP 4 SoCs."
+msgstr "3D-ubrzani, neslobodni upravljački program za ATI grafičke kartice."
+
+#: ../data/handlers/pvr-omap4.py:105
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of OMAP 4 powered "
+"boards."
+msgstr ""
+"Ovaj je upravljački program potreban za potpuno iskorištavanje 3D "
+"potencijala nekih ATI grafičkih kartica, a potreban je i za omogućavanje 2D "
+"mogućnosti novijih kartica."
+
+#: ../data/handlers/nvidia.py:26
+#, fuzzy
+msgid "NVIDIA accelerated graphics driver (post-release updates)"
+msgstr "NVIDIA ubrzani grafički upravljački program"
+
+#: ../data/handlers/nvidia.py:28
+msgid "NVIDIA accelerated graphics driver"
+msgstr "NVIDIA ubrzani grafički upravljački program"
+
+#: ../data/handlers/nvidia.py:34
+#, fuzzy
+msgid ""
+"3D-accelerated proprietary graphics driver for NVIDIA cards. Required if you "
+"want to run Unity."
+msgstr "3D-ubrzani, neslobodni upravljački program za NVIDIA grafičke kartice"
+
+#: ../data/handlers/nvidia.py:36
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of NVIDIA graphics "
+"cards, as well as provide 2D acceleration of newer cards.\n"
+"\n"
+"You need to install this driver if you wish to use the Unity desktop, enable "
+"desktop effects, or run software that requires 3D acceleration, such as some "
+"games."
+msgstr ""
+"Ovaj je program potreban kako biste u potpunosti iskoristili 3D potencijal "
+"NVIDIA grafičke kartice, a potreban je i za 2D mogućnosti novijih kartica.\n"
+"\n"
+"Ako želite efekte radne površine, ovaj je program nužan.\n"
+"\n"
+"Ako ovaj program nije omogućen, nećete moći koristiti efekte radne površine, "
+"te nećete moći koristiti softver za koji je potrebno 3D ubrzanje, poput "
+"igrica."
+
+#: ../jockey/handlers.py:121 ../jockey/handlers.py:363
+#, python-format
+msgid ""
+"Driver Information:\n"
+"License: %(license)s\n"
+"Author: %(author)s\n"
+"Version: %(version)s\n"
+"Dependencies: %(depends)s\n"
+"Firmware: %(firmware)s\n"
+msgstr ""
+
+#: ../jockey/handlers.py:348
+#, python-format
+msgid "%s (unsupported)"
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:1
+msgid "Get information about local device drivers"
+msgstr "Prikupi informacije o lokalnim upravljačkim programima uređaja"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:2
+msgid "To query the device drivers, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:3
+msgid "Check for newly available drivers for, and used drivers on this system"
+msgstr ""
+"Provjeri za nove dostupne upravljačke programe za ovaj sustav i već "
+"korištene upravljačke programe na ovom sustavu."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:4
+msgid "To check the driver status, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:5
+msgid ""
+"Query local and remote driver databases for updated drivers for the system"
+msgstr ""
+"Upitaj lokalne i udaljene baze upravljačkih programa za nadograđene "
+"upravljačke programe"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:6
+msgid "To query the driver databases for updates, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:7
+msgid "Install or remove device drivers"
+msgstr "Instaliraj ili ukloni upravljačke programe uređaja"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:8
+msgid "To install or remove device drivers, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:1
+msgid "Check for new hardware drivers"
+msgstr "Provjeri za nove upravljačke programe"
+
+#: ../data/handlers/broadcom_wl.py:20
+msgid "Broadcom STA wireless driver"
+msgstr ""
+
+#: ../data/handlers/sl_modem.py:15
+msgid "Software modem"
+msgstr "Softverski modem"
+
+#: ../data/handlers/sl_modem.py:17
+msgid ""
+"This driver enables the usage of many software modems, as commonly found in "
+"laptops.\n"
+"\n"
+"If this driver is not enabled, you will not be able to use your modem."
+msgstr ""
+"Ovaj upravljački program omogućava korištenje mnogih softverskih modema, "
+"koji se često nalaze u prijenosnim računalima.\n"
+"\n"
+"Ako ovaj upravljački program nije omogućen, nećete moći koristiti svoj modem."
+
+#: ../data/handlers/vmware-client.py:17
+msgid "VMWare Client Tools"
+msgstr ""
+
+#: ../data/handlers/vmware-client.py:18
+msgid "Install VMWare client drivers and tools"
+msgstr ""
+
+#: ../data/handlers/vmware-client.py:19
+msgid ""
+"Install the VMWare client drivers and tools for your VMWare based "
+"installation.\n"
+"\n"
+"This should help you use your VM."
+msgstr ""
+
+#: ../data/handlers/madwifi.py:22
+msgid "Alternate Atheros \"madwifi\" driver"
+msgstr "Alternativni Atheros \"madwifi\" upravljački program"
+
+#: ../data/handlers/madwifi.py:23
+msgid "Alternate \"madwifi\" driver for Atheros wireless LAN cards."
+msgstr ""
+"Alternativni \"madwifi\" upravljački program za bežične Atheros LAN kartice."
+
+#: ../data/handlers/madwifi.py:24
+msgid ""
+"Only activate this driver if you have problems with your wireless LAN "
+"connection.\n"
+"\n"
+"The free \"ath5k\" driver should work with most Atheros cards nowadays, but "
+"on some computers this alternate (but proprietary) driver still works "
+"better, or at all."
+msgstr ""
+"Aktivirajte ovaj upravljački program ako imate problema s bežičnom LAN "
+"vezom.\n"
+"\n"
+"Slobodni \"ath5k\" upravljački program bi trebao raditi na većini današnjih "
+"Atheros kartica, ali na nekim računalima ovaj alternativni (ali vlasnički) "
+"upravljački program još uvijek radi bolje, ili kartica funkcionira samo "
+"pomoću njega."
+
+#: ../data/handlers/madwifi.py:38
+#, python-format
+msgid "You removed the configuration file %s"
+msgstr "Uklonili ste konfiguracijsku datoteku %s"
+
+#~ msgid "y\n"
+#~ msgstr "y\n"
+
+#~ msgid "n\n"
+#~ msgstr "n\n"
+
+#~ msgid "Enable debugging messages."
+#~ msgstr "Omogući detaljnije ispisivanje poruka."
+
+#~ msgid "Write logging messages to a file instead to stderr."
+#~ msgstr "Zapiši poruke zapisnika u datoteku umjesto na stderr."
+
+#~ msgid "Timeout for D-BUS service (default: 600, 0: run forever)"
+#~ msgstr "Vrijeme isteka za D-BUS servis (zadano: 600, 0: pokreći zauvijek)"
+
+#~ msgid "Add a custom handler directory."
+#~ msgstr "Dodaj posebni direktorij upravljača."
+
+#~ msgid "Run on session D-BUS (only for testing)"
+#~ msgstr "Pokreni na sesiji D-BUS (samo za testiranje)"
+
+#~ msgid ""
+#~ "Use a different target kernel version than the currently running one."
+#~ msgstr "Koristi drugačiju ciljanu inačicu kernela od trenutno aktivne."
+
+#~ msgid "AMD proprietary FGLRX graphics driver"
+#~ msgstr "ATI/AMD vlasnički FGLRX upravljački program grafičke kartice"
+
+#~ msgid "3D-accelerated proprietary graphics driver for AMD (ATI) cards."
+#~ msgstr ""
+#~ "3D-ubrzani, neslobodni upravljački program za AMD (ATI) grafičke kartice."
+
+#~ msgid ""
+#~ "This driver is required to fully utilise the 3D potential of some AMD "
+#~ "(ATI) graphics cards, as well as provide 2D acceleration of newer cards."
+#~ msgstr ""
+#~ "Ovaj je upravljački program potreban za potpuno iskorištavanje 3D "
+#~ "potencijala nekih AMD (ATI) grafičkih kartica, a potreban je i za "
+#~ "omogućavanje 2D mogućnosti novijih kartica."
+
+#~ msgid "Cannot connect to D-BUS"
+#~ msgstr "Spajanje na D-BUS nije moguće"
+
+#~ msgid "Hardware Drivers"
+#~ msgstr "Upravljački programi"
+
+#~ msgid "System policy prevents querying driver databases for updates"
+#~ msgstr ""
+#~ "Sustavna politika sprječava upitivanje baza upravljačkih programa za "
+#~ "nadogradnje"
+
+#~ msgid "System policy prevents installation/removal of device drivers"
+#~ msgstr ""
+#~ "Sustavna politika sprječava instalaciju/uklanjanje upravljačkih programa"
+
+#~ msgid "System policy prevents checking driver status"
+#~ msgstr "Sustavna politika sprječava provjeru stanja upravljačkih programa"
+
+#~ msgid "System policy prevents querying device drivers"
+#~ msgstr "Sustavna politika sprječava upitivanje upravljačkih programa"
+
+#~ msgid ""
+#~ "Proprietary drivers do not have public source code that %(os)s developers "
+#~ "are free to modify. They represent a risk to you because they are only "
+#~ "available on the types of computer chosen by the manufacturer, and "
+#~ "security updates to them depend solely on the responsiveness of the "
+#~ "manufacturer. %(os)s cannot fix or improve these drivers."
+#~ msgstr ""
+#~ "Neslobodni upravljački programi nemaju javno dostupan izvorni kod kojeg "
+#~ "%(os)s razvojni programeri mogu slobodno izmijeniti. Oni predstavljaju "
+#~ "rizik jer ih je moguće koristiti samo na računalima koje je odabrao "
+#~ "proizvođač, a sigurnosne nadogradnje ovise isključivo o ažurnosti "
+#~ "proizvođača. %(os)s ne može popraviti niti poboljšati ove upravljačke "
+#~ "programe."
+
+#~ msgid "Restricted Hardware Drivers"
+#~ msgstr "Neslobodni upravljački programi"

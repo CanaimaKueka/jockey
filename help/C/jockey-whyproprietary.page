@@ -1,0 +1,20 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="jockey-whyproprietary">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <link type="next" xref="jockey-enable"/>
+  </info>
+
+  <title>01-. Why are some drivers proprietary?</title>
+
+  <p><em>Proprietary drivers are drivers for your hardware which are not freely available or open-source.</em></p>
+  <p>Most of the devices (hardware) attached to your computer should function properly. These devices are likely to have <em>free</em> drivers, which means that the drivers can be modified by the developers and problems with them can be fixed.</p>
+  <p>Some hardware does not have free drivers, usually because the hardware manufacturer has not released details of their hardware which would make it possible to create such a driver. These devices may have limited functionality or may not work at all.</p>
+  <p>If a <em>proprietary driver</em> is available for a certain device, you can install it in order to allow your device to function properly, or to add new features. For example, installing a proprietary driver for certain graphics cards may allow you to use more advanced visual effects.</p>
+  <p>Some computers may not have any devices which can use proprietary drivers, either because all of the devices are fully supported by free drivers or because no proprietary drivers are yet available for the device.</p>
+  <note style="warning">
+    <p>Proprietary drivers are often maintained by the hardware manufacturer, and so cannot be modified by the developers if there is a problem.</p>
+  </note>
+</page>

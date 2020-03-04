@@ -1,0 +1,730 @@
+# Hungarian translation for restricted-manager
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the restricted-manager package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: restricted-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-28 16:00-0430\n"
+"PO-Revision-Date: 2011-06-27 19:59+0000\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <gnome at fsf dot hu>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
+"X-Generator: Launchpad (build 14900)\n"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:1
+#, fuzzy
+msgid "Monitor new hardware drivers"
+msgstr "Új hardver-illesztőprogramok keresése"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:2
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:2
+msgid "Notify about new hardware drivers available for the system"
+msgstr "Értesítés az elérhető új hardver-illesztőprogramokról"
+
+#: ../data/handlers/dvb_usb_firmware.py:21
+msgid "Firmware for DVB cards"
+msgstr ""
+
+#: ../data/handlers/fglrx.py:23
+#, fuzzy
+msgid "ATI/AMD proprietary FGLRX graphics driver (post-release updates)"
+msgstr "Zárt ATI/AMD FGLRX grafikus illesztőprogram"
+
+#: ../data/handlers/fglrx.py:25
+msgid "ATI/AMD proprietary FGLRX graphics driver"
+msgstr "Zárt ATI/AMD FGLRX grafikus illesztőprogram"
+
+#: ../data/handlers/fglrx.py:31
+msgid "3D-accelerated proprietary graphics driver for ATI cards."
+msgstr "Zárt illesztőprogram ATI kártyákhoz háromdimenziós gyorsítással."
+
+#: ../data/handlers/fglrx.py:33
+msgid ""
+"This driver is required to fully utilise the 3D potential of some ATI "
+"graphics cards, as well as provide 2D acceleration of newer cards."
+msgstr ""
+"Ez az illesztőprogram szükséges egyes ATI kártyák 3D képességeinek teljes "
+"kihasználásához, valamint az újabb kártyák 2D gyorsításához."
+
+#: ../jockey/ui/__init__.py:117
+msgid ""
+"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
+"jockey without it."
+msgstr ""
+"Nem lehet kapcsolódni a D-BUS-hoz, használja a --no-dbus kapcsolót "
+"rendszergazdaként a jockey használatához nélküle."
+
+#: ../jockey/ui/__init__.py:128 ../jockey/ui/__init__.py:141
+msgid "Searching for available drivers..."
+msgstr "Elérhető illesztőprogramok keresése…"
+
+#: ../jockey/ui/__init__.py:166
+msgid "Component"
+msgstr "Komponens"
+
+#: ../jockey/ui/__init__.py:167
+msgid "_Enable"
+msgstr "_Engedélyezés"
+
+#: ../jockey/ui/__init__.py:168
+msgid "_Disable"
+msgstr "_Tiltás"
+
+#: ../jockey/ui/__init__.py:169
+msgid "_Ignore"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:170
+msgid "_Notify"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:171
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: ../jockey/ui/__init__.py:172
+msgid "Disabled"
+msgstr "Tiltva"
+
+#: ../jockey/ui/__init__.py:173
+msgid "Status"
+msgstr "Állapot"
+
+#: ../jockey/ui/__init__.py:174
+msgid "Needs computer restart"
+msgstr "A számítógép újraindítása szükséges."
+
+#: ../jockey/ui/__init__.py:175
+msgid "In use"
+msgstr "Használatban"
+
+#: ../jockey/ui/__init__.py:176
+msgid "Not in use"
+msgstr "Nincs használatban"
+
+#: ../jockey/ui/__init__.py:177
+msgid "License:"
+msgstr "Licenc:"
+
+#: ../jockey/ui/__init__.py:178
+msgid "details"
+msgstr "részletek"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:180
+msgid "Free"
+msgstr "Szabad"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:182
+msgid "Proprietary"
+msgstr "Zárt"
+
+#: ../jockey/ui/__init__.py:183
+msgid "Download in progress"
+msgstr "Letöltés folyamatban…"
+
+#: ../jockey/ui/__init__.py:184
+msgid "Unknown driver"
+msgstr "Ismeretlen illesztőprogram"
+
+#: ../jockey/ui/__init__.py:185
+msgid "You are not authorized to perform this action."
+msgstr "Nincs jogosultsága a művelet végrehajtásához!"
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:187
+#, python-format
+msgid "Tested by the %s developers"
+msgstr "A(z) %s fejlesztői által ellenőrizve"
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:189
+#, python-format
+msgid "Not tested by the %s developers"
+msgstr "A(z) %s fejlesztői nem ellenőrizték"
+
+#. this is used when one version of a driver is recommended over others
+#: ../jockey/ui/__init__.py:191
+msgid "Recommended"
+msgstr "Ajánlott"
+
+#: ../jockey/ui/__init__.py:192
+msgid "License Text for Device Driver"
+msgstr "Illesztőprogram licence"
+
+#: ../jockey/ui/__init__.py:193
+msgid "Install Drivers"
+msgstr "Illesztőprogramok telepítése"
+
+#: ../jockey/ui/__init__.py:202
+msgid "Restricted Additional Drivers"
+msgstr "Korlátozott további illesztőprogramok"
+
+#: ../jockey/ui/__init__.py:204 ../jockey/ui/__init__.py:592
+#: ../jockey/ui/__init__.py:600 ../jockey/ui/__init__.py:608
+#: ../jockey/ui/__init__.py:850 ../jockey/ui/gtk/jockey-gtk.desktop.in.h:1
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:1
+msgid "Additional Drivers"
+msgstr "További illesztőprogramok"
+
+#: ../jockey/ui/__init__.py:214
+msgid "Driver search results"
+msgstr "Illesztőprogram-keresés eredményei"
+
+#: ../jockey/ui/__init__.py:230
+msgid "Proprietary drivers are being used to make this computer work properly."
+msgstr ""
+"A számítógép megfelelő működéséhez zárt illesztőprogramok kerülnek "
+"felhasználásra."
+
+#: ../jockey/ui/__init__.py:233
+msgid "No proprietary drivers are in use on this system."
+msgstr "Ezen a rendszeren nincsenek használatban zárt illesztőprogramok."
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:239
+#, python-format
+msgid ""
+"Proprietary drivers do not have public source code that %(os)s developers "
+"are free to modify. Security updates and corrections depend solely on the "
+"responsiveness of the manufacturer. %(os)s cannot fix or improve these "
+"drivers."
+msgstr ""
+"A zárt illesztőprogramoknak nincs olyan nyílt forráskódja, amelyet a(z) "
+"%(os)s fejlesztői szabadon felhasználhatnak. A biztonsági frissítések és "
+"javítások kizárólag a gyártótól függenek. A(z) %(os)s nem tud "
+"hibajavításokat biztosítani ezekhez az illesztőprogramokhoz."
+
+#: ../jockey/ui/__init__.py:252
+msgid "Graphics driver"
+msgstr "Grafikus illesztőprogram"
+
+#: ../jockey/ui/__init__.py:254
+msgid "Firmware"
+msgstr "Firmware"
+
+#: ../jockey/ui/__init__.py:256
+msgid "Device driver"
+msgstr "Eszköz-illesztőprogram"
+
+#: ../jockey/ui/__init__.py:266
+#, python-format
+msgid "version %s"
+msgstr "Verzió: %s"
+
+#: ../jockey/ui/__init__.py:327
+msgid "_Remove"
+msgstr "_Eltávolítás"
+
+#: ../jockey/ui/__init__.py:329
+msgid "_Deactivate"
+msgstr "_Deaktiválás"
+
+#: ../jockey/ui/__init__.py:332
+msgid "This driver is activated and currently in use."
+msgstr "Ez az illesztőprogram aktiválva és használatban van."
+
+#: ../jockey/ui/__init__.py:336
+msgid "You need to restart the computer to activate this driver."
+msgstr "Az illesztőprogram aktiválásához újra kell indítani a számítógépet."
+
+#: ../jockey/ui/__init__.py:338
+msgid "This driver is activated but not currently in use."
+msgstr "Ez az illesztőprogram aktiválva van, de nincs használatban."
+
+#: ../jockey/ui/__init__.py:340
+msgid "_Activate"
+msgstr "_Aktiválás"
+
+#: ../jockey/ui/__init__.py:344
+msgid "This driver was just disabled, but is still in use."
+msgstr "Ez az illesztőprogram letiltásra került, de még használatban van."
+
+#: ../jockey/ui/__init__.py:346
+msgid "A different version of this driver is in use."
+msgstr "Az illesztőprogram másik verziója használatban van."
+
+#: ../jockey/ui/__init__.py:349
+#, fuzzy
+msgid "This driver is not activated and is ignored in notifications."
+msgstr "Ez az illesztőprogram aktiválva és használatban van."
+
+#: ../jockey/ui/__init__.py:352
+msgid "This driver is not activated."
+msgstr "Az illesztőprogram nincs aktiválva."
+
+#: ../jockey/ui/__init__.py:372
+msgid "Check for newly used or usable drivers and notify the user."
+msgstr "Újonnan használt zárt modulok keresése és a felhasználó értesítése"
+
+#: ../jockey/ui/__init__.py:375
+msgid "Query driver databases for newly available or updated drivers."
+msgstr ""
+"Újonnan elérhető és frissített illesztőprogramok keresése az illesztőprogram-"
+"adatbázisban."
+
+#: ../jockey/ui/__init__.py:378
+msgid "List available drivers and their status."
+msgstr ""
+"A rendelkezésre álló zárt illesztőprogramok nevének és állapotának "
+"felsorolása"
+
+#: ../jockey/ui/__init__.py:381
+msgid "Enable drivers that can be automatically installed."
+msgstr "Automatikusan telepíthető illesztőprogramok engedélyezése."
+
+#: ../jockey/ui/__init__.py:384
+msgid "List hardware identifiers from this system."
+msgstr "Felsorolja a rendszer összes hardverazonosítóját."
+
+#: ../jockey/ui/__init__.py:387
+msgid "Enable a driver"
+msgstr "Illesztőprogram engedélyezése"
+
+#: ../jockey/ui/__init__.py:390
+msgid "Disable a driver"
+msgstr "Illesztőprogram letiltása"
+
+#: ../jockey/ui/__init__.py:393
+msgid "Ask for confirmation for --enable/--disable"
+msgstr "Megerősítés kérése a --enable/--disable kapcsolókhoz"
+
+#: ../jockey/ui/__init__.py:396
+msgid ""
+"Check if there is a graphics driver available that supports composite and "
+"offer to enable it"
+msgstr ""
+"A kompozit módot támogató illesztőprogram keresése, és bekapcsolásának "
+"felajánlása"
+
+#: ../jockey/ui/__init__.py:401
+msgid ""
+"Only manage free/nonfree drivers. By default, all available drivers with any "
+"license are presented."
+msgstr ""
+"Csak szabad/zárt illesztőprogramok kezelése. Alapértelmezésben minden "
+"elérhető illesztőprogram megjelenik a licencétől függetlenül."
+
+#: ../jockey/ui/__init__.py:405
+msgid "Run as session D-BUS server."
+msgstr "Futtatás munkamenetszintű D-BUS kiszolgálóként"
+
+#: ../jockey/ui/__init__.py:407
+msgid ""
+"Do not use D-BUS for communicating with the backend. Needs root privileges."
+msgstr ""
+"Ne használja a D-Bust a háttérprogrammal való kommunikációra. Root "
+"jogosultság szükséges."
+
+#: ../jockey/ui/__init__.py:409
+msgid ""
+"Use a different target kernel version than the currently running one. This "
+"is only relevant with --no-dbus."
+msgstr ""
+"A jelenleg futótól eltérő cél kernelverzió használata. Csak a --no-dbus "
+"kapcsolóval együtt használható."
+
+#: ../jockey/ui/__init__.py:549
+msgid "Restricted drivers available"
+msgstr "Zárt illesztőprogramok érhetők el"
+
+#: ../jockey/ui/__init__.py:550
+msgid ""
+"In order to use your hardware more efficiently, you can enable drivers which "
+"are not free software."
+msgstr ""
+"A hardver hatékonyabb használata érdekében zárt forrású illesztőprogramokat "
+"engedélyezhet."
+
+#: ../jockey/ui/__init__.py:553
+msgid "New drivers available"
+msgstr "Új illesztőprogramok érhetők el"
+
+#: ../jockey/ui/__init__.py:554
+msgid "There are new or updated drivers available for your hardware."
+msgstr "Új vagy frissített illesztőprogramok érhetőek el a rendszerhez."
+
+#: ../jockey/ui/__init__.py:558
+msgid "New restricted drivers in use"
+msgstr "Új, zárt illesztőprogramok vannak használatban"
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:561
+#, python-format
+msgid ""
+"In order for this computer to function properly, %(os)s is using driver "
+"software that cannot be supported by %(os)s."
+msgstr ""
+"A számítógép megfelelő működése érdekében a(z) %(os)s olyan "
+"illesztőprogramot használ, amelyet a(z) %(os)s nem támogathat."
+
+#: ../jockey/ui/__init__.py:587
+msgid ""
+"There is no available graphics driver for your system which supports the "
+"composite extension, or the current one already supports it."
+msgstr ""
+"Nem érhető el olyan grafikus illesztőprogram a rendszerhez, amely támogatná "
+"a kompozit bővítményt, vagy a jelenlegi már támogatja ezt."
+
+#: ../jockey/ui/__init__.py:593
+msgid "Downloading and installing driver..."
+msgstr "Az illesztőprogram letöltése és telepítése…"
+
+#: ../jockey/ui/__init__.py:601
+msgid "Removing driver..."
+msgstr "Illesztőprogram eltávolítása…"
+
+#: ../jockey/ui/__init__.py:609
+msgid "Downloading and updating package indexes..."
+msgstr "Csomagindexek letöltése és frissítése…"
+
+#: ../jockey/ui/__init__.py:631
+msgid "Use --list to see available drivers"
+msgstr "A --list használatával megtekintheti az elérhető illesztőprogramokat."
+
+#: ../jockey/ui/__init__.py:649
+msgid "Cannot change driver"
+msgstr "Az illesztőprogram cseréje nem lehetséges"
+
+#: ../jockey/ui/__init__.py:662
+msgid "Enable driver?"
+msgstr "Biztosan engedélyezi az illesztőprogramot?"
+
+#: ../jockey/ui/__init__.py:665
+msgid "Disable driver?"
+msgstr "Biztosan letiltja az illesztőprogramot?"
+
+#: ../jockey/ui/__init__.py:698
+msgid "Sorry, the Jockey backend crashed. Please file a bug at:"
+msgstr ""
+"Elnézést, a Jockey háttérprogramja összeomlott. Küldjön hibajelentést ide:"
+
+#: ../jockey/ui/__init__.py:699
+msgid "Trying to recover by restarting backend."
+msgstr "Kísérlet a helyreállásra a háttérprogram újraindításával."
+
+#: ../jockey/ui/__init__.py:717
+msgid "Sorry, installation of this driver failed."
+msgstr "Elnézést, az illesztőprogram telepítése meghiúsult."
+
+#: ../jockey/ui/__init__.py:718
+msgid "Please have a look at the log file for details"
+msgstr "A részletekért nézze meg a naplófájlt"
+
+#: ../jockey/ui/__init__.py:722
+msgid "Installation Successful"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:781
+msgid "Download error"
+msgstr "Hiba a letöltésben"
+
+#: ../jockey/ui/__init__.py:908
+msgid ""
+"Downloading package indexes failed, please check your network status. Most "
+"drivers will not be available."
+msgstr ""
+"A csomagindexek letöltése meghiúsult, ellenőrizze a hálózat állapotát. A "
+"legtöbb illesztőprogram nem lesz elérhető."
+
+#: ../jockey/ui/__init__.py:978
+#, python-format
+msgid "Searching driver for %s..."
+msgstr "%s illesztőprogramjának keresése…"
+
+#: ../jockey/ui/gtk/jockey-gtk.desktop.in.h:2
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:2
+msgid "Configure third-party and proprietary drivers"
+msgstr "Külső fejlesztésű és zárt illesztőprogramok beállítása"
+
+#: ../jockey/ui/text/jockey-text:72
+msgid "Please enter 'y' or 'n' and press Enter"
+msgstr "Adja meg az „i” vagy „n” egyikét, és nyomja meg az Enter billentyűt"
+
+#. translators: %s is the path to xorg.conf
+#: ../jockey/xorg_driver.py:99
+#, python-format
+msgid "Reconfiguring X.org video drivers is not possible: %s is invalid."
+msgstr ""
+"Az X.org videoillesztők újrakonfigurálása nem lehetséges: %s érvénytelen."
+
+#: ../data/handlers/pvr-omap4.py:99
+#, fuzzy
+msgid "PowerVR SGX proprietary graphics driver for OMAP 4"
+msgstr "Zárt illesztőprogram ATI kártyákhoz háromdimenziós gyorsítással."
+
+#: ../data/handlers/pvr-omap4.py:103
+#, fuzzy
+msgid "3D-accelerated proprietary graphics driver for OMAP 4 SoCs."
+msgstr "Zárt illesztőprogram ATI kártyákhoz háromdimenziós gyorsítással."
+
+#: ../data/handlers/pvr-omap4.py:105
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of OMAP 4 powered "
+"boards."
+msgstr ""
+"Ez az illesztőprogram szükséges egyes ATI kártyák 3D képességeinek teljes "
+"kihasználásához, valamint az újabb kártyák 2D gyorsításához."
+
+#: ../data/handlers/nvidia.py:26
+#, fuzzy
+msgid "NVIDIA accelerated graphics driver (post-release updates)"
+msgstr "NVIDIA gyorsított grafikus illesztőprogram"
+
+#: ../data/handlers/nvidia.py:28
+msgid "NVIDIA accelerated graphics driver"
+msgstr "NVIDIA gyorsított grafikus illesztőprogram"
+
+#: ../data/handlers/nvidia.py:34
+#, fuzzy
+msgid ""
+"3D-accelerated proprietary graphics driver for NVIDIA cards. Required if you "
+"want to run Unity."
+msgstr "Zárt illesztőprogram NVIDIA kártyákhoz háromdimenziós gyorsítással."
+
+#: ../data/handlers/nvidia.py:36
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of NVIDIA graphics "
+"cards, as well as provide 2D acceleration of newer cards.\n"
+"\n"
+"You need to install this driver if you wish to use the Unity desktop, enable "
+"desktop effects, or run software that requires 3D acceleration, such as some "
+"games."
+msgstr ""
+"Ez az illesztőprogram szükséges az NVIDIA grafikus kártyák 3D képességeinek "
+"maradéktalan kihasználásához, valamint az újabb kártyák 2D gyorsításához.\n"
+"\n"
+"Ha az asztali effektusokat engedélyezni akarja, erre az illesztőprogramra "
+"szüksége lesz.\n"
+"\n"
+"Ha ez az illesztőprogram nincs engedélyezve, nem lesz lehetősége az asztali "
+"effektusokat bekapcsolni és 3D gyorsítást igénylő programokat (például "
+"játékokat) futtatni."
+
+#: ../jockey/handlers.py:121 ../jockey/handlers.py:363
+#, python-format
+msgid ""
+"Driver Information:\n"
+"License: %(license)s\n"
+"Author: %(author)s\n"
+"Version: %(version)s\n"
+"Dependencies: %(depends)s\n"
+"Firmware: %(firmware)s\n"
+msgstr ""
+
+#: ../jockey/handlers.py:348
+#, python-format
+msgid "%s (unsupported)"
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:1
+msgid "Get information about local device drivers"
+msgstr "Információkérés a helyi illesztőprogramokról"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:2
+msgid "To query the device drivers, you need to authenticate."
+msgstr "Hitelesítés szükséges az illesztőprogramok lekérdezéséhez."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:3
+msgid "Check for newly available drivers for, and used drivers on this system"
+msgstr ""
+"A rendszeren használt és a rendszerhez szükséges újonnan elérhető "
+"illesztőprogramok keresése"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:4
+msgid "To check the driver status, you need to authenticate."
+msgstr "Hitelesítés szükséges az illesztőprogramok állapotának ellenőrzéséhez."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:5
+msgid ""
+"Query local and remote driver databases for updated drivers for the system"
+msgstr ""
+"Helyi és távoli adatbázisok lekérdezése illesztőprogram-frissítésekért a "
+"rendszerhez"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:6
+msgid "To query the driver databases for updates, you need to authenticate."
+msgstr ""
+"Hitelesítés szükséges az illesztőprogram-adatbázisok frissítéseinek "
+"lekérdezéséhez."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:7
+msgid "Install or remove device drivers"
+msgstr "Illesztőprogramok telepítése/eltávolítása"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:8
+msgid "To install or remove device drivers, you need to authenticate."
+msgstr ""
+"Hitelesítés szükséges az illesztőprogramok telepítéséhez vagy "
+"eltávolításához."
+
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:1
+msgid "Check for new hardware drivers"
+msgstr "Új hardver-illesztőprogramok keresése"
+
+#: ../data/handlers/broadcom_wl.py:20
+msgid "Broadcom STA wireless driver"
+msgstr ""
+
+#: ../data/handlers/sl_modem.py:15
+msgid "Software modem"
+msgstr "Szoftveres modem"
+
+#: ../data/handlers/sl_modem.py:17
+msgid ""
+"This driver enables the usage of many software modems, as commonly found in "
+"laptops.\n"
+"\n"
+"If this driver is not enabled, you will not be able to use your modem."
+msgstr ""
+"Ez az illesztőprogram lehetővé teszi több szoftveres modem használatát. Ezek "
+"jellemzően noteszgépekben fordulnak elő.\n"
+"\n"
+"Ha ez az illesztőprogram nincsen engedélyezve, a modem nem lesz használható."
+
+#: ../data/handlers/vmware-client.py:17
+msgid "VMWare Client Tools"
+msgstr "VMWare klienseszközök"
+
+#: ../data/handlers/vmware-client.py:18
+msgid "Install VMWare client drivers and tools"
+msgstr "VMWare kliens-illesztőprogramok és eszközök telepítése"
+
+#: ../data/handlers/vmware-client.py:19
+#, fuzzy
+msgid ""
+"Install the VMWare client drivers and tools for your VMWare based "
+"installation.\n"
+"\n"
+"This should help you use your VM."
+msgstr ""
+"A VMWare kliens-illesztőprogramok és -eszközök telepítése VMWare-alapú "
+"Ubuntu telepítéséhez.\n"
+"\n"
+"Ez segít az Ubuntu virtuális gépben való használatában."
+
+#: ../data/handlers/madwifi.py:22
+msgid "Alternate Atheros \"madwifi\" driver"
+msgstr "Alternatív Atheros „madwifi” illesztőprogram"
+
+#: ../data/handlers/madwifi.py:23
+msgid "Alternate \"madwifi\" driver for Atheros wireless LAN cards."
+msgstr ""
+"Alternatív „madwifi” illesztőprogram Atheros vezeték nélküli hálózati "
+"kártyákhoz."
+
+#: ../data/handlers/madwifi.py:24
+msgid ""
+"Only activate this driver if you have problems with your wireless LAN "
+"connection.\n"
+"\n"
+"The free \"ath5k\" driver should work with most Atheros cards nowadays, but "
+"on some computers this alternate (but proprietary) driver still works "
+"better, or at all."
+msgstr ""
+"Csak akkor aktiválja ezt az illesztőprogramot, ha problémákat tapasztal a "
+"vezeték nélküli hálózati hozzáférésben.\n"
+"\n"
+"A szabad „ath5k” illesztőprogram működőképes a legtöbb Atheros kártyával, de "
+"néhány számítógépen ez az alternatív (de zárt forráskódú) illesztőprogram "
+"működik jobban vagy egyáltalán."
+
+#: ../data/handlers/madwifi.py:38
+#, python-format
+msgid "You removed the configuration file %s"
+msgstr "Eltávolította a(z) %s beállítófájlt"
+
+#~ msgid "y\n"
+#~ msgstr "i\n"
+
+#~ msgid "n\n"
+#~ msgstr "n\n"
+
+#~ msgid "Enable debugging messages."
+#~ msgstr "Hibakereső üzenetek bekapcsolása."
+
+#~ msgid "Write logging messages to a file instead to stderr."
+#~ msgstr "Naplóüzenetek írása fájlba az stderr helyett."
+
+#~ msgid "Timeout for D-BUS service (default: 600, 0: run forever)"
+#~ msgstr ""
+#~ "D-Bus szolgáltatás időkorlátja (alapbeállítás: 600, 0: futtatás örökké)"
+
+#~ msgid "Add a custom handler directory."
+#~ msgstr "Egyéni kezelőkönyvtár megadása."
+
+#~ msgid "Run on session D-BUS (only for testing)"
+#~ msgstr "Futtatás a munkamenet D-Buson (csak teszteléshez)"
+
+#~ msgid ""
+#~ "Use a different target kernel version than the currently running one."
+#~ msgstr "A jelenleg futótól eltérő kernelverzió használata."
+
+#~ msgid "AMD proprietary FGLRX graphics driver"
+#~ msgstr "Zárt AMD FGLRX grafikus illesztőprogram"
+
+#~ msgid "3D-accelerated proprietary graphics driver for AMD (ATI) cards."
+#~ msgstr ""
+#~ "Zárt illesztőprogram AMD (ATI) kártyákhoz háromdimenziós gyorsítással."
+
+#~ msgid ""
+#~ "This driver is required to fully utilise the 3D potential of some AMD "
+#~ "(ATI) graphics cards, as well as provide 2D acceleration of newer cards."
+#~ msgstr ""
+#~ "Ez az illesztőprogram szükséges egyes AMD (ATI) kártyák 3D képességeinek "
+#~ "teljes kihasználásához, valamint az újabb kártyák 2D gyorsításához."
+
+#~ msgid "Cannot connect to D-BUS"
+#~ msgstr "Nem lehet csatlakozni a D-Bushoz"
+
+#~ msgid "Restricted Hardware Drivers"
+#~ msgstr "Zárt eszközmeghajtók"
+
+#~ msgid "Hardware Drivers"
+#~ msgstr "Eszközmeghajtók"
+
+#~ msgid ""
+#~ "Proprietary drivers do not have public source code that %(os)s developers "
+#~ "are free to modify. They represent a risk to you because they are only "
+#~ "available on the types of computer chosen by the manufacturer, and "
+#~ "security updates to them depend solely on the responsiveness of the "
+#~ "manufacturer. %(os)s cannot fix or improve these drivers."
+#~ msgstr ""
+#~ "A zárt meghajtók forráskódja nem nyilvános, amelyet a(z) %(os)s "
+#~ "fejlesztői szabadon módosíthatnának. Ezek kockázatot jelentenek a "
+#~ "felhasználó számára, mivel csak a gyártó által kiválasztott "
+#~ "számítógéptípusokhoz érhetők el és biztonsági frissítésük kizárólag a "
+#~ "gyártó hozzáállásán múlik.\r\n"
+#~ "A(z) %(os)s nem javíthatja vagy fejlesztheti ezeket a meghajtókat."
+
+#~ msgid "System policy prevents checking driver status"
+#~ msgstr ""
+#~ "A rendszer házirendje megakadályozza az illesztőprogram állapotának "
+#~ "lekérdezését"
+
+#~ msgid "System policy prevents installation/removal of device drivers"
+#~ msgstr ""
+#~ "A rendszer házirendje megakadályozza az illesztőprogramok telepítését/"
+#~ "eltávolítását"
+
+#~ msgid "System policy prevents querying device drivers"
+#~ msgstr ""
+#~ "A rendszer házirendje megakadályozza az illesztőprogramok lekérdezését"
+
+#~ msgid "System policy prevents querying driver databases for updates"
+#~ msgstr ""
+#~ "A rendszer házirendje megakadályozza a frissítéshez szükséges "
+#~ "illesztőprogram-adatbázisok lekérdezését"

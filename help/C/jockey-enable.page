@@ -1,0 +1,31 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="jockey-enable">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <link type="next" xref="jockey-disable"/>
+  </info>
+
+  <title>02-. Enabling a proprietary driver</title>
+
+  <steps>
+    <title>To use a proprietary driver for a device</title>
+    <item>
+      <p>To launch <app>Jockey</app>, press <keyseq><key>Alt</key><key>F2</key></keyseq>, enter <cmd>jockey-gtk</cmd> and press <key>Enter</key></p>
+    </item>
+    <item>
+      <p>Find the driver which you would like to enable and read the description.</p>
+    </item>
+    <item>
+      <p>Press <gui style="button">Activate</gui> to enable the driver. You may be asked to enter your password.</p>
+    </item>
+    <item>
+      <p>The proprietary driver may have to be downloaded and installed.</p>
+    </item>
+    <item>
+      <p>You may need to restart your computer to finish enabling the driver.</p>
+    </item>
+  </steps>
+  
+</page>

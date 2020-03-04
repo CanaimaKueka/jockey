@@ -1,0 +1,8 @@
+usr/lib/python*/*/jockey/ui/gtk/*.py
+usr/share/gnome/help
+usr/share/jockey/jockey-gtk.ui
+usr/share/icons
+usr/share/applications/jockey-gtk.desktop
+usr/share/autostart/jockey-device-monitor.desktop etc/xdg/autostart/
+usr/bin/jockey-device-monitor
+usr/bin/jockey-gtk

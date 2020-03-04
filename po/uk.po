@@ -1,0 +1,690 @@
+# Ukrainian translation for restricted-manager
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the restricted-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: restricted-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-28 16:00-0430\n"
+"PO-Revision-Date: 2010-08-17 11:39+0000\n"
+"Last-Translator: Roman Oleskevych <Unknown>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
+"X-Generator: Launchpad (build 14900)\n"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:1
+#, fuzzy
+msgid "Monitor new hardware drivers"
+msgstr "Перевірити наявність нових драйверів"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:2
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:2
+msgid "Notify about new hardware drivers available for the system"
+msgstr "Повідомляти про нові доступні драйвери"
+
+#: ../data/handlers/dvb_usb_firmware.py:21
+msgid "Firmware for DVB cards"
+msgstr ""
+
+#: ../data/handlers/fglrx.py:23
+#, fuzzy
+msgid "ATI/AMD proprietary FGLRX graphics driver (post-release updates)"
+msgstr "Пропрієтарний драйвер FGLRX для відеокарт ATI/AMD"
+
+#: ../data/handlers/fglrx.py:25
+msgid "ATI/AMD proprietary FGLRX graphics driver"
+msgstr "Пропрієтарний драйвер FGLRX для відеокарт ATI/AMD"
+
+#: ../data/handlers/fglrx.py:31
+msgid "3D-accelerated proprietary graphics driver for ATI cards."
+msgstr "Драйвер прискореної тривимірної графіки для відеокарт ATI."
+
+#: ../data/handlers/fglrx.py:33
+msgid ""
+"This driver is required to fully utilise the 3D potential of some ATI "
+"graphics cards, as well as provide 2D acceleration of newer cards."
+msgstr ""
+"Цей драйвер необхідний для повного використання 3D-потенціалу деяких "
+"відеокарт ATI, а також для забезпечення прискорення двовимірної графіки для "
+"нових відеокарт."
+
+#: ../jockey/ui/__init__.py:117
+msgid ""
+"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
+"jockey without it."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:128 ../jockey/ui/__init__.py:141
+msgid "Searching for available drivers..."
+msgstr "Пошук доступних драйверів..."
+
+#: ../jockey/ui/__init__.py:166
+msgid "Component"
+msgstr "Компонент"
+
+#: ../jockey/ui/__init__.py:167
+msgid "_Enable"
+msgstr "_Увімкнути"
+
+#: ../jockey/ui/__init__.py:168
+msgid "_Disable"
+msgstr "_Вимкнути"
+
+#: ../jockey/ui/__init__.py:169
+msgid "_Ignore"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:170
+msgid "_Notify"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:171
+msgid "Enabled"
+msgstr "Дозволено"
+
+#: ../jockey/ui/__init__.py:172
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: ../jockey/ui/__init__.py:173
+msgid "Status"
+msgstr "Стан"
+
+#: ../jockey/ui/__init__.py:174
+msgid "Needs computer restart"
+msgstr "Потребує перезавантаження комп`ютера"
+
+#: ../jockey/ui/__init__.py:175
+msgid "In use"
+msgstr "Використовується"
+
+#: ../jockey/ui/__init__.py:176
+msgid "Not in use"
+msgstr "Не використовується"
+
+#: ../jockey/ui/__init__.py:177
+msgid "License:"
+msgstr "Ліцензія:"
+
+#: ../jockey/ui/__init__.py:178
+msgid "details"
+msgstr "деталі"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:180
+msgid "Free"
+msgstr "Вільний"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:182
+msgid "Proprietary"
+msgstr "Комерційний"
+
+#: ../jockey/ui/__init__.py:183
+msgid "Download in progress"
+msgstr "Йде завантаження"
+
+#: ../jockey/ui/__init__.py:184
+msgid "Unknown driver"
+msgstr "Невідомий драйвер"
+
+#: ../jockey/ui/__init__.py:185
+msgid "You are not authorized to perform this action."
+msgstr "Ви не авторизовані для виконання цієї дії."
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:187
+#, python-format
+msgid "Tested by the %s developers"
+msgstr "Тестовано розробниками %s"
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:189
+#, python-format
+msgid "Not tested by the %s developers"
+msgstr "Не тестовано розробниками %s"
+
+#. this is used when one version of a driver is recommended over others
+#: ../jockey/ui/__init__.py:191
+msgid "Recommended"
+msgstr "Рекомендується"
+
+#: ../jockey/ui/__init__.py:192
+msgid "License Text for Device Driver"
+msgstr "Текст ліцензії для драйвера пристрою"
+
+#: ../jockey/ui/__init__.py:193
+msgid "Install Drivers"
+msgstr "Встановити драйвери"
+
+#: ../jockey/ui/__init__.py:202
+msgid "Restricted Additional Drivers"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:204 ../jockey/ui/__init__.py:592
+#: ../jockey/ui/__init__.py:600 ../jockey/ui/__init__.py:608
+#: ../jockey/ui/__init__.py:850 ../jockey/ui/gtk/jockey-gtk.desktop.in.h:1
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:1
+msgid "Additional Drivers"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:214
+msgid "Driver search results"
+msgstr "Результат пошуку драйвера"
+
+#: ../jockey/ui/__init__.py:230
+msgid "Proprietary drivers are being used to make this computer work properly."
+msgstr ""
+"Для того щоб комп'ютер працював правильно, були задіяні пропрієтарні "
+"драйвери,"
+
+#: ../jockey/ui/__init__.py:233
+msgid "No proprietary drivers are in use on this system."
+msgstr "Жодних комерційних драйверів не використовуються в системі."
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:239
+#, python-format
+msgid ""
+"Proprietary drivers do not have public source code that %(os)s developers "
+"are free to modify. Security updates and corrections depend solely on the "
+"responsiveness of the manufacturer. %(os)s cannot fix or improve these "
+"drivers."
+msgstr ""
+"Пропрієтарні драйвери не мають публічного вихідного коду, який розробники "
+"%(os)s можуть вільно модифікувати. Оновлення безпеки та корекції залежать "
+"лише від оперативності виробника. %(os)s не може виправляти або покращувати "
+"ці драйвери."
+
+#: ../jockey/ui/__init__.py:252
+msgid "Graphics driver"
+msgstr "Графічний драйвер"
+
+#: ../jockey/ui/__init__.py:254
+msgid "Firmware"
+msgstr "Прошивка"
+
+#: ../jockey/ui/__init__.py:256
+msgid "Device driver"
+msgstr "Драйвер пристрою"
+
+#: ../jockey/ui/__init__.py:266
+#, python-format
+msgid "version %s"
+msgstr "версія %s"
+
+#: ../jockey/ui/__init__.py:327
+msgid "_Remove"
+msgstr "_Вилучити"
+
+#: ../jockey/ui/__init__.py:329
+msgid "_Deactivate"
+msgstr "_Деактивувати"
+
+#: ../jockey/ui/__init__.py:332
+msgid "This driver is activated and currently in use."
+msgstr "Цей драйвер активовано та задіяно."
+
+#: ../jockey/ui/__init__.py:336
+msgid "You need to restart the computer to activate this driver."
+msgstr "Вам потрібно перезавантажити комп'ютер, щоб активувати драйвер."
+
+#: ../jockey/ui/__init__.py:338
+msgid "This driver is activated but not currently in use."
+msgstr "Цей драйвер активовано, але не задіяно."
+
+#: ../jockey/ui/__init__.py:340
+msgid "_Activate"
+msgstr "_Активувати"
+
+#: ../jockey/ui/__init__.py:344
+msgid "This driver was just disabled, but is still in use."
+msgstr "Цей драйвер вже вимкнуто, але досі задіяно."
+
+#: ../jockey/ui/__init__.py:346
+msgid "A different version of this driver is in use."
+msgstr "Інша версія цього драйвера вже використовується."
+
+#: ../jockey/ui/__init__.py:349
+#, fuzzy
+msgid "This driver is not activated and is ignored in notifications."
+msgstr "Цей драйвер активовано та задіяно."
+
+#: ../jockey/ui/__init__.py:352
+msgid "This driver is not activated."
+msgstr "Цей драйвер не активовано."
+
+#: ../jockey/ui/__init__.py:372
+msgid "Check for newly used or usable drivers and notify the user."
+msgstr "Перевірити на наявність нових драйверів та повідомити користувача."
+
+#: ../jockey/ui/__init__.py:375
+msgid "Query driver databases for newly available or updated drivers."
+msgstr ""
+"Надіслати запит до бази даних драйверів щодо наявності нових або оновлених "
+"драйверів."
+
+#: ../jockey/ui/__init__.py:378
+msgid "List available drivers and their status."
+msgstr "Список драйверів та їхніх станів."
+
+#: ../jockey/ui/__init__.py:381
+msgid "Enable drivers that can be automatically installed."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:384
+msgid "List hardware identifiers from this system."
+msgstr "Список апаратних ідентифікаторів для цієї системи."
+
+#: ../jockey/ui/__init__.py:387
+msgid "Enable a driver"
+msgstr "Ввімкнення драйвера"
+
+#: ../jockey/ui/__init__.py:390
+msgid "Disable a driver"
+msgstr "Вимкнення драйвера"
+
+#: ../jockey/ui/__init__.py:393
+msgid "Ask for confirmation for --enable/--disable"
+msgstr "Запитувати підтрвердження для --enable/--disable"
+
+#: ../jockey/ui/__init__.py:396
+msgid ""
+"Check if there is a graphics driver available that supports composite and "
+"offer to enable it"
+msgstr ""
+"Перевірити на доступність графічного драйверу, який підтримує технологію "
+"composite, і спробувати його задіяти"
+
+#: ../jockey/ui/__init__.py:401
+msgid ""
+"Only manage free/nonfree drivers. By default, all available drivers with any "
+"license are presented."
+msgstr ""
+"Управляти лише вільними/не вільними драйверами. За замовчуванням, всі "
+"можливі драйвери надані зі усіма можливими ліцензіями."
+
+#: ../jockey/ui/__init__.py:405
+msgid "Run as session D-BUS server."
+msgstr "Запустити сессію серверу D-BUS."
+
+#: ../jockey/ui/__init__.py:407
+msgid ""
+"Do not use D-BUS for communicating with the backend. Needs root privileges."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:409
+msgid ""
+"Use a different target kernel version than the currently running one. This "
+"is only relevant with --no-dbus."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:549
+msgid "Restricted drivers available"
+msgstr "Доступний пропрієтарний драйвер"
+
+#: ../jockey/ui/__init__.py:550
+msgid ""
+"In order to use your hardware more efficiently, you can enable drivers which "
+"are not free software."
+msgstr ""
+"Для того, щоб більш ефективно використовувати апаратні можливості вашого "
+"обладнання, ви можете задіяти драйвери, які не є вільним програмним "
+"забезспеченням."
+
+#: ../jockey/ui/__init__.py:553
+msgid "New drivers available"
+msgstr "Доступні нові драйвера."
+
+#: ../jockey/ui/__init__.py:554
+msgid "There are new or updated drivers available for your hardware."
+msgstr ""
+"Доступні нові або оновлені драйвери для вашого апаратного забезпечення."
+
+#: ../jockey/ui/__init__.py:558
+msgid "New restricted drivers in use"
+msgstr "Використовуються нові пропрієтарні драйвери"
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:561
+#, python-format
+msgid ""
+"In order for this computer to function properly, %(os)s is using driver "
+"software that cannot be supported by %(os)s."
+msgstr ""
+"Для того, щоб комп'ютер правильно працював, %(os)s використовує драйвери, "
+"яким %(os)s не може забезпечувати технічну підртимку."
+
+#: ../jockey/ui/__init__.py:587
+msgid ""
+"There is no available graphics driver for your system which supports the "
+"composite extension, or the current one already supports it."
+msgstr ""
+"Немає доступного відео-драйвера для вашої системи, який підтрумує технологію "
+"composite, або поточний драйвер вже підтримує її."
+
+#: ../jockey/ui/__init__.py:593
+msgid "Downloading and installing driver..."
+msgstr "Завантажую і встановлюю драйвер..."
+
+#: ../jockey/ui/__init__.py:601
+msgid "Removing driver..."
+msgstr "Видалення драйвера..."
+
+#: ../jockey/ui/__init__.py:609
+msgid "Downloading and updating package indexes..."
+msgstr "Завантаження та оновлення індексів пакунків..."
+
+#: ../jockey/ui/__init__.py:631
+msgid "Use --list to see available drivers"
+msgstr "Використовуйте опцію --list щоб побачити всі доступні драйвери"
+
+#: ../jockey/ui/__init__.py:649
+msgid "Cannot change driver"
+msgstr "Неможливо змінити драйвер"
+
+#: ../jockey/ui/__init__.py:662
+msgid "Enable driver?"
+msgstr "Задіяти драйвер?"
+
+#: ../jockey/ui/__init__.py:665
+msgid "Disable driver?"
+msgstr "Вимкнути драйвер?"
+
+#: ../jockey/ui/__init__.py:698
+msgid "Sorry, the Jockey backend crashed. Please file a bug at:"
+msgstr ""
+"Вибачте, у програмі Jockey стався збій. Відправте звіт про помилку за "
+"адресою:"
+
+#: ../jockey/ui/__init__.py:699
+msgid "Trying to recover by restarting backend."
+msgstr "Спроба відновлення використовуючи перезапуск програми."
+
+#: ../jockey/ui/__init__.py:717
+msgid "Sorry, installation of this driver failed."
+msgstr "Помилка встановлення цього драйверу. Вибачте."
+
+#: ../jockey/ui/__init__.py:718
+msgid "Please have a look at the log file for details"
+msgstr "Перегляньте, будь-ласка, журнал для отримання деталей"
+
+#: ../jockey/ui/__init__.py:722
+msgid "Installation Successful"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:781
+msgid "Download error"
+msgstr "Помилка завантаження"
+
+#: ../jockey/ui/__init__.py:908
+msgid ""
+"Downloading package indexes failed, please check your network status. Most "
+"drivers will not be available."
+msgstr ""
+"Під час завантаження індексів пакунків стався збій, перевірте стан мережі. "
+"Більшість драйверів будуть не доступні."
+
+#: ../jockey/ui/__init__.py:978
+#, python-format
+msgid "Searching driver for %s..."
+msgstr "Пошук драйверів для %s..."
+
+#: ../jockey/ui/gtk/jockey-gtk.desktop.in.h:2
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:2
+msgid "Configure third-party and proprietary drivers"
+msgstr "Настройка сторонніх і пропрієтарних драйверів"
+
+#: ../jockey/ui/text/jockey-text:72
+msgid "Please enter 'y' or 'n' and press Enter"
+msgstr "Введіть, будь-ласка, 'Т' або 'Н' та натисніть Enter"
+
+#. translators: %s is the path to xorg.conf
+#: ../jockey/xorg_driver.py:99
+#, python-format
+msgid "Reconfiguring X.org video drivers is not possible: %s is invalid."
+msgstr ""
+"Не вдалося провести переналаштування драйвера відеокарти: %s - недійсний."
+
+#: ../data/handlers/pvr-omap4.py:99
+#, fuzzy
+msgid "PowerVR SGX proprietary graphics driver for OMAP 4"
+msgstr "Драйвер прискореної тривимірної графіки для відеокарт ATI."
+
+#: ../data/handlers/pvr-omap4.py:103
+#, fuzzy
+msgid "3D-accelerated proprietary graphics driver for OMAP 4 SoCs."
+msgstr "Драйвер прискореної тривимірної графіки для відеокарт ATI."
+
+#: ../data/handlers/pvr-omap4.py:105
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of OMAP 4 powered "
+"boards."
+msgstr ""
+"Цей драйвер необхідний для повного використання 3D-потенціалу деяких "
+"відеокарт ATI, а також для забезпечення прискорення двовимірної графіки для "
+"нових відеокарт."
+
+#: ../data/handlers/nvidia.py:26
+#, fuzzy
+msgid "NVIDIA accelerated graphics driver (post-release updates)"
+msgstr "Драйвер прискореної графіки NVIDIA"
+
+#: ../data/handlers/nvidia.py:28
+msgid "NVIDIA accelerated graphics driver"
+msgstr "Драйвер прискореної графіки NVIDIA"
+
+#: ../data/handlers/nvidia.py:34
+#, fuzzy
+msgid ""
+"3D-accelerated proprietary graphics driver for NVIDIA cards. Required if you "
+"want to run Unity."
+msgstr "Драйвер прискореної тривимірної графіки для відеокарт NVIDIA."
+
+#: ../data/handlers/nvidia.py:36
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of NVIDIA graphics "
+"cards, as well as provide 2D acceleration of newer cards.\n"
+"\n"
+"You need to install this driver if you wish to use the Unity desktop, enable "
+"desktop effects, or run software that requires 3D acceleration, such as some "
+"games."
+msgstr ""
+"Цей драйвер необхідний для для повної підтримки 3D можливостей графічних "
+"адаптерів NVIDIA, також для забезпечення 2D прискорення новіших адаптерів.\n"
+"\n"
+"Цей драйвер необхідний, якщо ви бажаєте використовувати ефекти Стільниці.\n"
+"\n"
+"Якщо цей драйвер не підключений, ви не зможете використовувати ефекти "
+"Стільниці та запускати програмне забезпечення, яке потребує 3D прискорення "
+"(як деякі ігри)."
+
+#: ../jockey/handlers.py:121 ../jockey/handlers.py:363
+#, python-format
+msgid ""
+"Driver Information:\n"
+"License: %(license)s\n"
+"Author: %(author)s\n"
+"Version: %(version)s\n"
+"Dependencies: %(depends)s\n"
+"Firmware: %(firmware)s\n"
+msgstr ""
+
+#: ../jockey/handlers.py:348
+#, python-format
+msgid "%s (unsupported)"
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:1
+msgid "Get information about local device drivers"
+msgstr "Отримати інформацію про локальні драйвери пристроїв"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:2
+msgid "To query the device drivers, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:3
+msgid "Check for newly available drivers for, and used drivers on this system"
+msgstr ""
+"Перевірити наявність оновлень для наявних драйверів і тих, які "
+"використовуються в цій системі."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:4
+msgid "To check the driver status, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:5
+msgid ""
+"Query local and remote driver databases for updated drivers for the system"
+msgstr ""
+"Звірити локальну і віддалену базу драйверів для оновлення драйверів, що "
+"використовуються в системі"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:6
+msgid "To query the driver databases for updates, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:7
+msgid "Install or remove device drivers"
+msgstr "Встановити або видалити драйвера пристроїв"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:8
+msgid "To install or remove device drivers, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:1
+msgid "Check for new hardware drivers"
+msgstr "Перевірити наявність нових драйверів"
+
+#: ../data/handlers/broadcom_wl.py:20
+msgid "Broadcom STA wireless driver"
+msgstr ""
+
+#: ../data/handlers/sl_modem.py:15
+msgid "Software modem"
+msgstr "Програмний модем"
+
+#: ../data/handlers/sl_modem.py:17
+msgid ""
+"This driver enables the usage of many software modems, as commonly found in "
+"laptops.\n"
+"\n"
+"If this driver is not enabled, you will not be able to use your modem."
+msgstr ""
+"Цей драйвер дозволяє використовувати безліч програмних модемів, які "
+"переважно використовуються в портативних комп'ютерах.\n"
+"\n"
+"Якщо цей драйвер не задіяно, ви не зможете використовувати ваш модем."
+
+#: ../data/handlers/vmware-client.py:17
+msgid "VMWare Client Tools"
+msgstr "Утиліти Клієнту VMWare"
+
+#: ../data/handlers/vmware-client.py:18
+msgid "Install VMWare client drivers and tools"
+msgstr "Встановити драйвери та утиліти клієнту VMWare"
+
+#: ../data/handlers/vmware-client.py:19
+msgid ""
+"Install the VMWare client drivers and tools for your VMWare based "
+"installation.\n"
+"\n"
+"This should help you use your VM."
+msgstr ""
+
+#: ../data/handlers/madwifi.py:22
+msgid "Alternate Atheros \"madwifi\" driver"
+msgstr "Альтернативний драйвер Atheros «madwifi»"
+
+#: ../data/handlers/madwifi.py:23
+msgid "Alternate \"madwifi\" driver for Atheros wireless LAN cards."
+msgstr ""
+"Альтернативний драйвер «MadWifi» для бездротових мережевих карт Atheros."
+
+#: ../data/handlers/madwifi.py:24
+msgid ""
+"Only activate this driver if you have problems with your wireless LAN "
+"connection.\n"
+"\n"
+"The free \"ath5k\" driver should work with most Atheros cards nowadays, but "
+"on some computers this alternate (but proprietary) driver still works "
+"better, or at all."
+msgstr ""
+"Активуйте цей драйвер лише при наявності проблем мережевого бездротового "
+"з'єднання.\n"
+"\n"
+"Вільний драйвер «ath5k» в даний час підтримує більшість карт Atheros, але на "
+"деяких комп'ютерах цей альтернативний (пропрієтарних) драйвер все ж працює "
+"краще, або є єдиним працюючим."
+
+#: ../data/handlers/madwifi.py:38
+#, python-format
+msgid "You removed the configuration file %s"
+msgstr "Ви видалили файл конфігурації %s"
+
+#~ msgid "y\n"
+#~ msgstr "Т\n"
+
+#~ msgid "n\n"
+#~ msgstr "Н\n"
+
+#~ msgid "Enable debugging messages."
+#~ msgstr "Увімкнути відлагоджувальні повідомлення."
+
+#~ msgid "Write logging messages to a file instead to stderr."
+#~ msgstr "Записувати журнальні повідомлення до файлу замість stderr."
+
+#~ msgid "Timeout for D-BUS service (default: 600, 0: run forever)"
+#~ msgstr "Тайм-аут для D-BUS послуг (за замовчуванням: 600, 0: назавжди)"
+
+#~ msgid "Add a custom handler directory."
+#~ msgstr "Додати власний каталог обробник."
+
+#~ msgid "Run on session D-BUS (only for testing)"
+#~ msgstr "Запустити сесію D-BUS (тільки для тестування)"
+
+#~ msgid "Restricted Hardware Drivers"
+#~ msgstr "Обмежені апаратні драйвера"
+
+#~ msgid "Hardware Drivers"
+#~ msgstr "Апаратні драйвера"
+
+#~ msgid "Cannot connect to D-BUS"
+#~ msgstr "Неможливо приєднатися до D-BUS"
+
+#~ msgid ""
+#~ "Proprietary drivers do not have public source code that %(os)s developers "
+#~ "are free to modify. They represent a risk to you because they are only "
+#~ "available on the types of computer chosen by the manufacturer, and "
+#~ "security updates to them depend solely on the responsiveness of the "
+#~ "manufacturer. %(os)s cannot fix or improve these drivers."
+#~ msgstr ""
+#~ "Пропрієтарні драйвери не мають загальнодоступних вихідних кодів, які "
+#~ "розробники %(os)s можуть редагувати. Вони представляють певний ризик для "
+#~ "Вас, тому що їх можливо використовувати тільки на певних комп'ютерах, "
+#~ "обраних виробником. Також наявність оновлень безпеки для них залежить "
+#~ "тільки від відповідальності виробника. %(os)s не можуть ані виправляти "
+#~ "помилки, ані покращувати ці драйвери."
+
+#~ msgid "System policy prevents checking driver status"
+#~ msgstr "Політика системи не дозволяє перевірити стан драйвера"
+
+#~ msgid "System policy prevents querying driver databases for updates"
+#~ msgstr ""
+#~ "Політика системи не дозволяє шукати оновлення в базі даних драйверів"
+
+#~ msgid "System policy prevents querying device drivers"
+#~ msgstr "Політика системи не дозволяє опитувати драйвери"
+
+#~ msgid "System policy prevents installation/removal of device drivers"
+#~ msgstr "Політика системи не дозволяє встановлення/видалення драйверів"

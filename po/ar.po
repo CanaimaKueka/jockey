@@ -1,0 +1,670 @@
+# Arabic translation for restricted-manager
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the restricted-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: restricted-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-28 16:00-0430\n"
+"PO-Revision-Date: 2010-06-25 00:31+0000\n"
+"Last-Translator: Magd Addin M. Almuntaser <admin@liioiil.com>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
+"X-Generator: Launchpad (build 14900)\n"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:1
+#, fuzzy
+msgid "Monitor new hardware drivers"
+msgstr "تحقق من وجود تعريفات العتاد"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:2
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:2
+msgid "Notify about new hardware drivers available for the system"
+msgstr "أخبرني حول التعريفات الجديدة للعتاد والمتوفرة للنظام"
+
+#: ../data/handlers/dvb_usb_firmware.py:21
+msgid "Firmware for DVB cards"
+msgstr ""
+
+#: ../data/handlers/fglrx.py:23
+#, fuzzy
+msgid "ATI/AMD proprietary FGLRX graphics driver (post-release updates)"
+msgstr "التعريف الرسومي لبطاقات FGLRX المملوك من طرف ATI/AMD"
+
+#: ../data/handlers/fglrx.py:25
+msgid "ATI/AMD proprietary FGLRX graphics driver"
+msgstr "التعريف الرسومي لبطاقات FGLRX المملوك من طرف ATI/AMD"
+
+#: ../data/handlers/fglrx.py:31
+msgid "3D-accelerated proprietary graphics driver for ATI cards."
+msgstr ""
+"التعريف الرسومي للتسريع الثلاثي الأبعاد لبطاقات الشاشة المملوك من طرف ATI."
+
+#: ../data/handlers/fglrx.py:33
+msgid ""
+"This driver is required to fully utilise the 3D potential of some ATI "
+"graphics cards, as well as provide 2D acceleration of newer cards."
+msgstr ""
+"هذا التعريف منصوح به من أجل الاستعمال الكامل للقدرات الثلاثية الأبعاد لبعض "
+"بطاقات ATI، وأيضا توفير تسرع ثنائي الأبعاد للبطاقات الجديدة."
+
+#: ../jockey/ui/__init__.py:117
+msgid ""
+"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
+"jockey without it."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:128 ../jockey/ui/__init__.py:141
+msgid "Searching for available drivers..."
+msgstr "يبحث عن المشغلات المتاحة..."
+
+#: ../jockey/ui/__init__.py:166
+msgid "Component"
+msgstr "مركب"
+
+#: ../jockey/ui/__init__.py:167
+msgid "_Enable"
+msgstr "_تفعيل"
+
+#: ../jockey/ui/__init__.py:168
+msgid "_Disable"
+msgstr "ت_عطيل"
+
+#: ../jockey/ui/__init__.py:169
+msgid "_Ignore"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:170
+msgid "_Notify"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:171
+msgid "Enabled"
+msgstr "مفعّل"
+
+#: ../jockey/ui/__init__.py:172
+msgid "Disabled"
+msgstr "مُعطل"
+
+#: ../jockey/ui/__init__.py:173
+msgid "Status"
+msgstr "الوضع"
+
+#: ../jockey/ui/__init__.py:174
+msgid "Needs computer restart"
+msgstr "يحتاج إلى إعادة تشغيل الحاسب"
+
+#: ../jockey/ui/__init__.py:175
+msgid "In use"
+msgstr "مستخدَم"
+
+#: ../jockey/ui/__init__.py:176
+msgid "Not in use"
+msgstr "غير مستخدَم"
+
+#: ../jockey/ui/__init__.py:177
+msgid "License:"
+msgstr "الترخيص:"
+
+#: ../jockey/ui/__init__.py:178
+msgid "details"
+msgstr "التفاصيل"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:180
+msgid "Free"
+msgstr "حر"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:182
+msgid "Proprietary"
+msgstr "المالك"
+
+#: ../jockey/ui/__init__.py:183
+msgid "Download in progress"
+msgstr "جاري التحميل"
+
+#: ../jockey/ui/__init__.py:184
+msgid "Unknown driver"
+msgstr "تعريف غير معروف"
+
+#: ../jockey/ui/__init__.py:185
+msgid "You are not authorized to perform this action."
+msgstr "لم يصرّح لك بهذا الإجراء"
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:187
+#, python-format
+msgid "Tested by the %s developers"
+msgstr "اختبره مطوري %s"
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:189
+#, python-format
+msgid "Not tested by the %s developers"
+msgstr "لم يختبره مطوري %s"
+
+#. this is used when one version of a driver is recommended over others
+#: ../jockey/ui/__init__.py:191
+msgid "Recommended"
+msgstr "مستحسن"
+
+#: ../jockey/ui/__init__.py:192
+msgid "License Text for Device Driver"
+msgstr "نص الرخصة لتعريف العتاد"
+
+#: ../jockey/ui/__init__.py:193
+msgid "Install Drivers"
+msgstr "تثبيت برامج التشغيل"
+
+#: ../jockey/ui/__init__.py:202
+msgid "Restricted Additional Drivers"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:204 ../jockey/ui/__init__.py:592
+#: ../jockey/ui/__init__.py:600 ../jockey/ui/__init__.py:608
+#: ../jockey/ui/__init__.py:850 ../jockey/ui/gtk/jockey-gtk.desktop.in.h:1
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:1
+msgid "Additional Drivers"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:214
+msgid "Driver search results"
+msgstr "نتائج البحث عن التعريف"
+
+#: ../jockey/ui/__init__.py:230
+msgid "Proprietary drivers are being used to make this computer work properly."
+msgstr "تُستخدَم تعريفات مملوكة لجعل هذا الحاسوب يعمل بشكل سليم."
+
+#: ../jockey/ui/__init__.py:233
+msgid "No proprietary drivers are in use on this system."
+msgstr "لا توجد تعريفات ذات ملكية مستعملة في هذا النظام"
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:239
+#, python-format
+msgid ""
+"Proprietary drivers do not have public source code that %(os)s developers "
+"are free to modify. Security updates and corrections depend solely on the "
+"responsiveness of the manufacturer. %(os)s cannot fix or improve these "
+"drivers."
+msgstr ""
+"ليس للمشغلات المحتكرة مصدر برمجي متاح للعموم يستطيع مطوري %(os)s تعديله "
+"بحرية. تعتمد التحديثات الأمنية والإصلاحات حصريا على المُصنِّع المعني. لا تستطيع "
+"%(os)s إصلاح أو تحسين هذه المشغلات."
+
+#: ../jockey/ui/__init__.py:252
+msgid "Graphics driver"
+msgstr "تعريف الرسوميات"
+
+#: ../jockey/ui/__init__.py:254
+msgid "Firmware"
+msgstr "شركة-وير"
+
+#: ../jockey/ui/__init__.py:256
+msgid "Device driver"
+msgstr "تعريف العتاد"
+
+#: ../jockey/ui/__init__.py:266
+#, python-format
+msgid "version %s"
+msgstr "النسخة %s"
+
+#: ../jockey/ui/__init__.py:327
+msgid "_Remove"
+msgstr "_حذف"
+
+#: ../jockey/ui/__init__.py:329
+msgid "_Deactivate"
+msgstr "_تعطيل"
+
+#: ../jockey/ui/__init__.py:332
+msgid "This driver is activated and currently in use."
+msgstr "هذا التعريف مُفعل ومُستخدم حاليا."
+
+#: ../jockey/ui/__init__.py:336
+msgid "You need to restart the computer to activate this driver."
+msgstr "عليك أن تعيد تشغيل الحاسوب من أجل تفعيل هذا التعريف."
+
+#: ../jockey/ui/__init__.py:338
+msgid "This driver is activated but not currently in use."
+msgstr "هذا التعريف مُفعل ولك ليس جاري استخدامه."
+
+#: ../jockey/ui/__init__.py:340
+msgid "_Activate"
+msgstr "_تفعيل"
+
+#: ../jockey/ui/__init__.py:344
+msgid "This driver was just disabled, but is still in use."
+msgstr "_لقد تم تعطيل التعريف للتو، ولكن مازال جاري استخدامه."
+
+#: ../jockey/ui/__init__.py:346
+msgid "A different version of this driver is in use."
+msgstr "نسخة أخرى من هذا التعريف جاري استخدامها."
+
+#: ../jockey/ui/__init__.py:349
+#, fuzzy
+msgid "This driver is not activated and is ignored in notifications."
+msgstr "هذا التعريف مُفعل ومُستخدم حاليا."
+
+#: ../jockey/ui/__init__.py:352
+msgid "This driver is not activated."
+msgstr "هذا التعريف غير مُفعل."
+
+#: ../jockey/ui/__init__.py:372
+msgid "Check for newly used or usable drivers and notify the user."
+msgstr ""
+"تحقق من وجود تعريفات جديدة مستعملة أو قابلة للاستعمال وأخبرني عن المستخدم."
+
+#: ../jockey/ui/__init__.py:375
+msgid "Query driver databases for newly available or updated drivers."
+msgstr "إستعلم عن قاعدة بيانات التعريف المتاحة حاليا أو التعريفات المُحدثة."
+
+#: ../jockey/ui/__init__.py:378
+msgid "List available drivers and their status."
+msgstr "قائمة التعريفات المتاحة وحالتها."
+
+#: ../jockey/ui/__init__.py:381
+msgid "Enable drivers that can be automatically installed."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:384
+msgid "List hardware identifiers from this system."
+msgstr "عرض في قائمة معرفات العتاد من النظام."
+
+#: ../jockey/ui/__init__.py:387
+msgid "Enable a driver"
+msgstr "تفعيل التعريف"
+
+#: ../jockey/ui/__init__.py:390
+msgid "Disable a driver"
+msgstr "تعطيل التعريف"
+
+#: ../jockey/ui/__init__.py:393
+msgid "Ask for confirmation for --enable/--disable"
+msgstr "طلب التأكيد من أجل --التفعليل/--التعطيل"
+
+#: ../jockey/ui/__init__.py:396
+msgid ""
+"Check if there is a graphics driver available that supports composite and "
+"offer to enable it"
+msgstr "تحقق من وجود تعريف رسومي يدعم التركيب والاقتراح من أجل تفعيله."
+
+#: ../jockey/ui/__init__.py:401
+msgid ""
+"Only manage free/nonfree drivers. By default, all available drivers with any "
+"license are presented."
+msgstr ""
+"فقط قم بإدارة التعريفات المجانية/غير المجانية. افتراضيا، كل يتم تقديم "
+"التعريفات المتوفرة مع رخصة."
+
+#: ../jockey/ui/__init__.py:405
+msgid "Run as session D-BUS server."
+msgstr "إقلاع على شكل حصة D-BUS سرفر."
+
+#: ../jockey/ui/__init__.py:407
+msgid ""
+"Do not use D-BUS for communicating with the backend. Needs root privileges."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:409
+msgid ""
+"Use a different target kernel version than the currently running one. This "
+"is only relevant with --no-dbus."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:549
+msgid "Restricted drivers available"
+msgstr "التعريفات المقيدة موجودة."
+
+#: ../jockey/ui/__init__.py:550
+msgid ""
+"In order to use your hardware more efficiently, you can enable drivers which "
+"are not free software."
+msgstr ""
+"من أجل استعمال عتادك بأكثر فعالية، بإمكانك أن تُفعل برامج التعريفات غير "
+"المجانية."
+
+#: ../jockey/ui/__init__.py:553
+msgid "New drivers available"
+msgstr "تعريفات جديدة موجودة."
+
+#: ../jockey/ui/__init__.py:554
+msgid "There are new or updated drivers available for your hardware."
+msgstr "هناك تعريفات جديدة أو مُحدثة موجودة لعتادك."
+
+#: ../jockey/ui/__init__.py:558
+msgid "New restricted drivers in use"
+msgstr "تعريفات مقيدة جديدة في الإستخدام"
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:561
+#, python-format
+msgid ""
+"In order for this computer to function properly, %(os)s is using driver "
+"software that cannot be supported by %(os)s."
+msgstr ""
+"من أجل العمل الصحيح لهذا الحاسوب. %(os)s يستعمل برنامج التعريف الذي لا يمكن "
+"لـ %(os)s أن يعتمده."
+
+#: ../jockey/ui/__init__.py:587
+msgid ""
+"There is no available graphics driver for your system which supports the "
+"composite extension, or the current one already supports it."
+msgstr ""
+"لا يوجد تعريف رسومي لهذا النظام يدعم تركيب الامتدادات، أو التعريف الحالي "
+"يدعمه مسبقا."
+
+#: ../jockey/ui/__init__.py:593
+msgid "Downloading and installing driver..."
+msgstr "تحميل وتثبيت التعريف ..."
+
+#: ../jockey/ui/__init__.py:601
+msgid "Removing driver..."
+msgstr "حذف التعريف ..."
+
+#: ../jockey/ui/__init__.py:609
+msgid "Downloading and updating package indexes..."
+msgstr "ينزّل ويحدّث فهارس الحزم..."
+
+#: ../jockey/ui/__init__.py:631
+msgid "Use --list to see available drivers"
+msgstr "استعمل --القائمة حتى ترى التعريفات المتوفرة."
+
+#: ../jockey/ui/__init__.py:649
+msgid "Cannot change driver"
+msgstr "لا يمكن تغيير التعريف"
+
+#: ../jockey/ui/__init__.py:662
+msgid "Enable driver?"
+msgstr "تفعيل التعريف ؟"
+
+#: ../jockey/ui/__init__.py:665
+msgid "Disable driver?"
+msgstr "تعطيل التعريف ؟"
+
+#: ../jockey/ui/__init__.py:698
+msgid "Sorry, the Jockey backend crashed. Please file a bug at:"
+msgstr "آسف، خلفية برنامج Jockey تحطمت. الرجاء أن تملئ نص الخطأ لـ:"
+
+#: ../jockey/ui/__init__.py:699
+msgid "Trying to recover by restarting backend."
+msgstr "محاولة الاسترجاع عن طريق إعادة تشغيل خلفية البرنامج."
+
+#: ../jockey/ui/__init__.py:717
+msgid "Sorry, installation of this driver failed."
+msgstr "عفواً ، فشل تثبيت هذا المشغل."
+
+#: ../jockey/ui/__init__.py:718
+msgid "Please have a look at the log file for details"
+msgstr "من فضلك انظر في ملف السجل لمزيد من التفاصيل"
+
+#: ../jockey/ui/__init__.py:722
+msgid "Installation Successful"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:781
+msgid "Download error"
+msgstr "خطأ في التحميل"
+
+#: ../jockey/ui/__init__.py:908
+msgid ""
+"Downloading package indexes failed, please check your network status. Most "
+"drivers will not be available."
+msgstr ""
+"فشل تنزيل فهارس الحزم، من فضلك راجع اتصالك الشبكي. لن تتوفر أغلب المشغلات."
+
+#: ../jockey/ui/__init__.py:978
+#, python-format
+msgid "Searching driver for %s..."
+msgstr "البحث عن تعريف من أجل %s ..."
+
+#: ../jockey/ui/gtk/jockey-gtk.desktop.in.h:2
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:2
+msgid "Configure third-party and proprietary drivers"
+msgstr "تخصيص التعريفات المملوكة وتعريفات الطرف الثالث"
+
+#: ../jockey/ui/text/jockey-text:72
+msgid "Please enter 'y' or 'n' and press Enter"
+msgstr "فضلاً أدخل 'y' أو 'n' ثم إضغط على زر الإدخال"
+
+#. translators: %s is the path to xorg.conf
+#: ../jockey/xorg_driver.py:99
+#, python-format
+msgid "Reconfiguring X.org video drivers is not possible: %s is invalid."
+msgstr "إعادة التعريفات الرسومية لخدمة X.Org غير ممكن: %s غير صحيح."
+
+#: ../data/handlers/pvr-omap4.py:99
+#, fuzzy
+msgid "PowerVR SGX proprietary graphics driver for OMAP 4"
+msgstr ""
+"التعريف الرسومي للتسريع الثلاثي الأبعاد لبطاقات الشاشة المملوك من طرف ATI."
+
+#: ../data/handlers/pvr-omap4.py:103
+#, fuzzy
+msgid "3D-accelerated proprietary graphics driver for OMAP 4 SoCs."
+msgstr ""
+"التعريف الرسومي للتسريع الثلاثي الأبعاد لبطاقات الشاشة المملوك من طرف ATI."
+
+#: ../data/handlers/pvr-omap4.py:105
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of OMAP 4 powered "
+"boards."
+msgstr ""
+"هذا التعريف منصوح به من أجل الاستعمال الكامل للقدرات الثلاثية الأبعاد لبعض "
+"بطاقات ATI، وأيضا توفير تسرع ثنائي الأبعاد للبطاقات الجديدة."
+
+#: ../data/handlers/nvidia.py:26
+#, fuzzy
+msgid "NVIDIA accelerated graphics driver (post-release updates)"
+msgstr "تعريف بطاقات NVIDIA الرسومية"
+
+#: ../data/handlers/nvidia.py:28
+msgid "NVIDIA accelerated graphics driver"
+msgstr "تعريف بطاقات NVIDIA الرسومية"
+
+#: ../data/handlers/nvidia.py:34
+#, fuzzy
+msgid ""
+"3D-accelerated proprietary graphics driver for NVIDIA cards. Required if you "
+"want to run Unity."
+msgstr ""
+"التعريف الرسومي للتسريع الثلاثي الأبعاد لبطاقات الشاشة المملوك من طرف NVidia."
+
+#: ../data/handlers/nvidia.py:36
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of NVIDIA graphics "
+"cards, as well as provide 2D acceleration of newer cards.\n"
+"\n"
+"You need to install this driver if you wish to use the Unity desktop, enable "
+"desktop effects, or run software that requires 3D acceleration, such as some "
+"games."
+msgstr ""
+"هذا التعريف مطلوب للتمكن من إستخدام قوة المعالجة الثلاثية الأبعاد الكاملة "
+"لبطاقات NVIDIA  و كذلك تسريع الرسوم الثنائية الأبعاد في البطاقات الجديدة.\n"
+"إذا أردت تفعيل تأثيرات سطح المكتب فلا بد من تفعيل هذا التعريف.\n"
+"إذا لم تفعل هذا التعريف فلن تستطيع تفعيل تأثيرات سطح المكتب ولن تستطيع تشغيل "
+"البرامج التي تتطلب تسريع ثلاثي الأبعاد مثل بعض الألعاب."
+
+#: ../jockey/handlers.py:121 ../jockey/handlers.py:363
+#, python-format
+msgid ""
+"Driver Information:\n"
+"License: %(license)s\n"
+"Author: %(author)s\n"
+"Version: %(version)s\n"
+"Dependencies: %(depends)s\n"
+"Firmware: %(firmware)s\n"
+msgstr ""
+
+#: ../jockey/handlers.py:348
+#, python-format
+msgid "%s (unsupported)"
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:1
+msgid "Get information about local device drivers"
+msgstr "الحصول على معلومات حول تعريفات العتاد المحلية."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:2
+msgid "To query the device drivers, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:3
+msgid "Check for newly available drivers for, and used drivers on this system"
+msgstr ""
+"تحقق من وجود تعريفات جديدة للتعريفات المتوفرة ، و التعريفات المُستعملة على "
+"هذا النظام."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:4
+msgid "To check the driver status, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:5
+msgid ""
+"Query local and remote driver databases for updated drivers for the system"
+msgstr ""
+"استعلام قواعد البيانات للتعريفات المحلية أو  البعيدة من أجل التعريفات "
+"المُحدثة للنظام."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:6
+msgid "To query the driver databases for updates, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:7
+msgid "Install or remove device drivers"
+msgstr "تثبيت أو حذف تعريفات التعريف"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:8
+msgid "To install or remove device drivers, you need to authenticate."
+msgstr ""
+
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:1
+msgid "Check for new hardware drivers"
+msgstr "تحقق من وجود تعريفات العتاد"
+
+#: ../data/handlers/broadcom_wl.py:20
+msgid "Broadcom STA wireless driver"
+msgstr ""
+
+#: ../data/handlers/sl_modem.py:15
+msgid "Software modem"
+msgstr "برنامج المودم"
+
+#: ../data/handlers/sl_modem.py:17
+msgid ""
+"This driver enables the usage of many software modems, as commonly found in "
+"laptops.\n"
+"\n"
+"If this driver is not enabled, you will not be able to use your modem."
+msgstr ""
+"هذا التعريف يُفعل استعمال العديد من برامج الموديمات ، والشائع إيجادها في "
+"الحواسيب المحمولة.\n"
+"\n"
+"إذا لم يتم تفعيل هذا التعريف ، فإنك لن تتمكن من استعمال موديمك."
+
+#: ../data/handlers/vmware-client.py:17
+msgid "VMWare Client Tools"
+msgstr ""
+
+#: ../data/handlers/vmware-client.py:18
+msgid "Install VMWare client drivers and tools"
+msgstr ""
+
+#: ../data/handlers/vmware-client.py:19
+msgid ""
+"Install the VMWare client drivers and tools for your VMWare based "
+"installation.\n"
+"\n"
+"This should help you use your VM."
+msgstr ""
+
+#: ../data/handlers/madwifi.py:22
+msgid "Alternate Atheros \"madwifi\" driver"
+msgstr "مشغل \"madwifi\" بديل ل Atheros"
+
+#: ../data/handlers/madwifi.py:23
+msgid "Alternate \"madwifi\" driver for Atheros wireless LAN cards."
+msgstr "مشغل \"madwifi\" بديل لبطاقات Atheros للشبكة اللاسلكية"
+
+#: ../data/handlers/madwifi.py:24
+msgid ""
+"Only activate this driver if you have problems with your wireless LAN "
+"connection.\n"
+"\n"
+"The free \"ath5k\" driver should work with most Atheros cards nowadays, but "
+"on some computers this alternate (but proprietary) driver still works "
+"better, or at all."
+msgstr ""
+"فعّل هذا المشغل إذا كنت تواجه مشاكل مع الشبكة اللاسلكية.\n"
+"مشغل \"ath5k\" الحر يفترض أن يعمل مع أغلب بطاقات Atheros هذه الأيام، لكن في "
+"بعض الحواسيب قد يعمل هذا المشغل البديل (ولكن غير حر) بشكل أفضل."
+
+#: ../data/handlers/madwifi.py:38
+#, python-format
+msgid "You removed the configuration file %s"
+msgstr "لقد أزلت ملف الإعدادات %s"
+
+#~ msgid "y\n"
+#~ msgstr "y\n"
+
+#~ msgid "n\n"
+#~ msgstr "n\n"
+
+#~ msgid "Enable debugging messages."
+#~ msgstr "تمكين تصحيح الرسائل"
+
+#~ msgid "Write logging messages to a file instead to stderr."
+#~ msgstr "كتابة الرسائل المسجلة الى ملف بدلاً الى ملف stderr."
+
+#~ msgid "Timeout for D-BUS service (default: 600, 0: run forever)"
+#~ msgstr "مدة خدمة الـ D-BUS الإفتراضي: 600, 0: تشغيل دون توقف)"
+
+#~ msgid "Add a custom handler directory."
+#~ msgstr "إضافة مجلد معالج إختياري."
+
+#~ msgid "Run on session D-BUS (only for testing)"
+#~ msgstr "تشغيل على دور الـ D-BUS (فقط للإختبار)"
+
+#~ msgid "Hardware Drivers"
+#~ msgstr "تعاريف عتاد"
+
+#~ msgid "Restricted Hardware Drivers"
+#~ msgstr "تعاريف عتاد مقيدة"
+
+#~ msgid ""
+#~ "Proprietary drivers do not have public source code that %(os)s developers "
+#~ "are free to modify. They represent a risk to you because they are only "
+#~ "available on the types of computer chosen by the manufacturer, and "
+#~ "security updates to them depend solely on the responsiveness of the "
+#~ "manufacturer. %(os)s cannot fix or improve these drivers."
+#~ msgstr ""
+#~ "التعريفات المملوكة ليس لها شفرة مصدرية مفتوحة يمكن لمطوري %(os)s أن "
+#~ "يغيرها بحرية. لذلك فهي تشكل خطرا عليك لأنها متوفرة فقط على أنواع الحواسيب "
+#~ "المختارة من طرف الصانع، وأما التحديثات الأمنية لها فهي تعتمد فقط على "
+#~ "استجابة الصانع. %(os)s ليس باستطاعته أن يصحح أو يحسن من هذه التعريفات."
+
+#~ msgid "System policy prevents installation/removal of device drivers"
+#~ msgstr "سياسة النظام تمنع من تثبيت/حذف تعريفات العتاد"
+
+#~ msgid "System policy prevents checking driver status"
+#~ msgstr "سياسة النظام تمنع التحقق من حالة التعريفات"
+
+#~ msgid "System policy prevents querying device drivers"
+#~ msgstr "سياسة النظام تمنع الاستعلام حول تعريفات العتاد"
+
+#~ msgid "System policy prevents querying driver databases for updates"
+#~ msgstr "سياسة النظام تمنع الاستعلام حول قواعد البيانات من أجل التحديث"
+
+#~ msgid "Cannot connect to D-BUS"
+#~ msgstr "تعذّر الاتصال بـ D-BUS"

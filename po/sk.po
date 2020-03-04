@@ -1,0 +1,683 @@
+# Slovak translation for jockey
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the jockey package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: jockey\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-28 16:00-0430\n"
+"PO-Revision-Date: 2010-06-07 10:27+0000\n"
+"Last-Translator: Ján Dráb <cortex.sk@gmail.com>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
+"X-Generator: Launchpad (build 14900)\n"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:1
+#, fuzzy
+msgid "Monitor new hardware drivers"
+msgstr "Skontrolovať nové ovládače hardvéru"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:2
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:2
+msgid "Notify about new hardware drivers available for the system"
+msgstr "Upozorňovať na dostupnosť nových ovládačov hardvéru pre systém"
+
+#: ../data/handlers/dvb_usb_firmware.py:21
+msgid "Firmware for DVB cards"
+msgstr ""
+
+#: ../data/handlers/fglrx.py:23
+#, fuzzy
+msgid "ATI/AMD proprietary FGLRX graphics driver (post-release updates)"
+msgstr "ATI/AMD neslobodný FGLRX grafický ovládač"
+
+#: ../data/handlers/fglrx.py:25
+msgid "ATI/AMD proprietary FGLRX graphics driver"
+msgstr "ATI/AMD neslobodný FGLRX grafický ovládač"
+
+#: ../data/handlers/fglrx.py:31
+msgid "3D-accelerated proprietary graphics driver for ATI cards."
+msgstr "3D-akcelerovaný neslobodný grafický ovládač pre karty ATI."
+
+#: ../data/handlers/fglrx.py:33
+msgid ""
+"This driver is required to fully utilise the 3D potential of some ATI "
+"graphics cards, as well as provide 2D acceleration of newer cards."
+msgstr ""
+"Tento ovládač je vyžadovaný na úplné využitie 3D potenciálu niektorých "
+"grafických kariet  ATI, tiež poskytuje 2D akceleráciu na novších kartách."
+
+#: ../jockey/ui/__init__.py:117
+msgid ""
+"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
+"jockey without it."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:128 ../jockey/ui/__init__.py:141
+msgid "Searching for available drivers..."
+msgstr "Vyhľadávajú sa dostupné ovládače..."
+
+#: ../jockey/ui/__init__.py:166
+msgid "Component"
+msgstr "Súčasť"
+
+#: ../jockey/ui/__init__.py:167
+msgid "_Enable"
+msgstr "_Povoliť"
+
+#: ../jockey/ui/__init__.py:168
+msgid "_Disable"
+msgstr "Z_akázať"
+
+#: ../jockey/ui/__init__.py:169
+msgid "_Ignore"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:170
+msgid "_Notify"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:171
+msgid "Enabled"
+msgstr "Zapnutý"
+
+#: ../jockey/ui/__init__.py:172
+msgid "Disabled"
+msgstr "Vypnutý"
+
+#: ../jockey/ui/__init__.py:173
+msgid "Status"
+msgstr "Stav"
+
+#: ../jockey/ui/__init__.py:174
+msgid "Needs computer restart"
+msgstr "Vyžaduje reštart počítača"
+
+#: ../jockey/ui/__init__.py:175
+msgid "In use"
+msgstr "Používa sa"
+
+#: ../jockey/ui/__init__.py:176
+msgid "Not in use"
+msgstr "Nepoužíva sa"
+
+#: ../jockey/ui/__init__.py:177
+msgid "License:"
+msgstr "Licencia:"
+
+#: ../jockey/ui/__init__.py:178
+msgid "details"
+msgstr "detaily"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:180
+msgid "Free"
+msgstr "Slobodný"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:182
+msgid "Proprietary"
+msgstr "Neslobodný"
+
+#: ../jockey/ui/__init__.py:183
+msgid "Download in progress"
+msgstr "Prebieha sťahovanie"
+
+#: ../jockey/ui/__init__.py:184
+msgid "Unknown driver"
+msgstr "Neznámy ovládač"
+
+#: ../jockey/ui/__init__.py:185
+msgid "You are not authorized to perform this action."
+msgstr "Nemáte oprávnenie na vykonanie tejto operácie."
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:187
+#, python-format
+msgid "Tested by the %s developers"
+msgstr "Testovaný vývojármi %s"
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:189
+#, python-format
+msgid "Not tested by the %s developers"
+msgstr "Neotestovaný vývojármi %s"
+
+#. this is used when one version of a driver is recommended over others
+#: ../jockey/ui/__init__.py:191
+msgid "Recommended"
+msgstr "Odporúčaný"
+
+#: ../jockey/ui/__init__.py:192
+msgid "License Text for Device Driver"
+msgstr "Text licencie pre ovládač zariadenia"
+
+#: ../jockey/ui/__init__.py:193
+msgid "Install Drivers"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:202
+msgid "Restricted Additional Drivers"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:204 ../jockey/ui/__init__.py:592
+#: ../jockey/ui/__init__.py:600 ../jockey/ui/__init__.py:608
+#: ../jockey/ui/__init__.py:850 ../jockey/ui/gtk/jockey-gtk.desktop.in.h:1
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:1
+msgid "Additional Drivers"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:214
+msgid "Driver search results"
+msgstr "Výsledok vyhľadávania ovládačov"
+
+#: ../jockey/ui/__init__.py:230
+msgid "Proprietary drivers are being used to make this computer work properly."
+msgstr "Aby počítač správne fungoval, používajú sa neslobodné ovládače."
+
+#: ../jockey/ui/__init__.py:233
+msgid "No proprietary drivers are in use on this system."
+msgstr "V tomto systéme sa nepoužívajú žiadne neslobodné ovládače."
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:239
+#, python-format
+msgid ""
+"Proprietary drivers do not have public source code that %(os)s developers "
+"are free to modify. Security updates and corrections depend solely on the "
+"responsiveness of the manufacturer. %(os)s cannot fix or improve these "
+"drivers."
+msgstr ""
+"Neslobodné ovládače nemajú verejný zdrojový kód, ktorý by mohli vývojári "
+"%(os)s voľne upravovať. Bezpečnostné aktualizácie a opravy závisia výhradne "
+"na prístupnosti výrobcu. %(os)s nemôže opraviť alebo zlepšiť tieto ovládače."
+
+#: ../jockey/ui/__init__.py:252
+msgid "Graphics driver"
+msgstr "Grafický ovládač"
+
+#: ../jockey/ui/__init__.py:254
+msgid "Firmware"
+msgstr "Firmvér"
+
+#: ../jockey/ui/__init__.py:256
+msgid "Device driver"
+msgstr "Ovládač zariadenia"
+
+#: ../jockey/ui/__init__.py:266
+#, python-format
+msgid "version %s"
+msgstr "verzia %s"
+
+#: ../jockey/ui/__init__.py:327
+msgid "_Remove"
+msgstr "Odst_rániť"
+
+#: ../jockey/ui/__init__.py:329
+msgid "_Deactivate"
+msgstr "_Deaktivovať"
+
+#: ../jockey/ui/__init__.py:332
+msgid "This driver is activated and currently in use."
+msgstr "Tento ovládač je aktivovaný a práve sa používa."
+
+#: ../jockey/ui/__init__.py:336
+msgid "You need to restart the computer to activate this driver."
+msgstr "Aby ste mohli ovládač používať, potrebuje reštartovať počítač."
+
+#: ../jockey/ui/__init__.py:338
+msgid "This driver is activated but not currently in use."
+msgstr "Tento ovládač je aktivovaný, ale práve sa nepoužíva."
+
+#: ../jockey/ui/__init__.py:340
+msgid "_Activate"
+msgstr "_Aktivovať"
+
+#: ../jockey/ui/__init__.py:344
+msgid "This driver was just disabled, but is still in use."
+msgstr "Tento ovládač bol práve zakázaný, ale stále sa používa."
+
+#: ../jockey/ui/__init__.py:346
+msgid "A different version of this driver is in use."
+msgstr "Práve sa používa iná verzia tohto ovládača."
+
+#: ../jockey/ui/__init__.py:349
+#, fuzzy
+msgid "This driver is not activated and is ignored in notifications."
+msgstr "Tento ovládač je aktivovaný a práve sa používa."
+
+#: ../jockey/ui/__init__.py:352
+msgid "This driver is not activated."
+msgstr "Tento ovládač nie je aktivovaný."
+
+#: ../jockey/ui/__init__.py:372
+msgid "Check for newly used or usable drivers and notify the user."
+msgstr ""
+"Kontrolovať pre novšie používané a užitočné ovládače a upozorniť používateľa."
+
+#: ../jockey/ui/__init__.py:375
+msgid "Query driver databases for newly available or updated drivers."
+msgstr ""
+"Prehľadať databázy ovládačov pre nanovo dostupné alebo aktualizované "
+"ovládače."
+
+#: ../jockey/ui/__init__.py:378
+msgid "List available drivers and their status."
+msgstr "Uviesť dostupné ovládače a ich stav."
+
+#: ../jockey/ui/__init__.py:381
+msgid "Enable drivers that can be automatically installed."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:384
+msgid "List hardware identifiers from this system."
+msgstr "Zobraziť identifikátory hardvéru pre tento systém."
+
+#: ../jockey/ui/__init__.py:387
+msgid "Enable a driver"
+msgstr "Povoliť ovládač"
+
+#: ../jockey/ui/__init__.py:390
+msgid "Disable a driver"
+msgstr "Zakázať ovládač"
+
+#: ../jockey/ui/__init__.py:393
+msgid "Ask for confirmation for --enable/--disable"
+msgstr "Požadovať potvrdenie pre --enable/--disable"
+
+#: ../jockey/ui/__init__.py:396
+msgid ""
+"Check if there is a graphics driver available that supports composite and "
+"offer to enable it"
+msgstr ""
+"Skontrolovať, či je dostupný grafický ovládač, ktorý podporuje kompozitný "
+"výstup a ponúknuť jeho použitie"
+
+#: ../jockey/ui/__init__.py:401
+msgid ""
+"Only manage free/nonfree drivers. By default, all available drivers with any "
+"license are presented."
+msgstr ""
+"Spravovať len slobodné ovládače. Predvolené je zobrazovať dostupné ovládače "
+"s akoukoľvek prítomnou licenciou."
+
+#: ../jockey/ui/__init__.py:405
+msgid "Run as session D-BUS server."
+msgstr "Spustiť ako reláciu D-BUS servera."
+
+#: ../jockey/ui/__init__.py:407
+msgid ""
+"Do not use D-BUS for communicating with the backend. Needs root privileges."
+msgstr ""
+"Nepoužívať D-BUS pre komunikáciu s podsystémom. Vyžaduje práva používateľa "
+"root."
+
+#: ../jockey/ui/__init__.py:409
+msgid ""
+"Use a different target kernel version than the currently running one. This "
+"is only relevant with --no-dbus."
+msgstr ""
+"Použiť iné cieľové jadro verzie, ktorá sa líši od práve bežiacej. Toto je "
+"opodstatnené len s --no-dbus."
+
+#: ../jockey/ui/__init__.py:549
+msgid "Restricted drivers available"
+msgstr "Dostupné neslobodné ovládače"
+
+#: ../jockey/ui/__init__.py:550
+msgid ""
+"In order to use your hardware more efficiently, you can enable drivers which "
+"are not free software."
+msgstr ""
+"Aby ste svoj hardvér využívali efektívnejšie, môžete povoliť ovládače, ktoré "
+"nie sú slobodným softvérom."
+
+#: ../jockey/ui/__init__.py:553
+msgid "New drivers available"
+msgstr "Nové dostupné ovládače"
+
+#: ../jockey/ui/__init__.py:554
+msgid "There are new or updated drivers available for your hardware."
+msgstr "K dispozícii sú nové alebo aktualizované ovládače pre váš hardvér."
+
+#: ../jockey/ui/__init__.py:558
+msgid "New restricted drivers in use"
+msgstr "Používajú sa nové neslobodné ovládače"
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:561
+#, python-format
+msgid ""
+"In order for this computer to function properly, %(os)s is using driver "
+"software that cannot be supported by %(os)s."
+msgstr ""
+"Aby tento počítač pracoval správne, %(os)s používa ovládače, ktoré %(os)s "
+"nemôže podporovať."
+
+#: ../jockey/ui/__init__.py:587
+msgid ""
+"There is no available graphics driver for your system which supports the "
+"composite extension, or the current one already supports it."
+msgstr ""
+"Nie je dostupný grafický ovládač pre váš systém, ktorý by podporoval "
+"kompozitné rozšírenie, alebo ho už súčasný podporuje."
+
+#: ../jockey/ui/__init__.py:593
+msgid "Downloading and installing driver..."
+msgstr "Ovládač sa práve sťahuje a inštaluje..."
+
+#: ../jockey/ui/__init__.py:601
+msgid "Removing driver..."
+msgstr "Odstraňuje sa ovládač..."
+
+#: ../jockey/ui/__init__.py:609
+msgid "Downloading and updating package indexes..."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:631
+msgid "Use --list to see available drivers"
+msgstr "Použite --list k zobrazeniu dostupných ovládačov"
+
+#: ../jockey/ui/__init__.py:649
+msgid "Cannot change driver"
+msgstr "Nemožno zmeniť ovládač"
+
+#: ../jockey/ui/__init__.py:662
+msgid "Enable driver?"
+msgstr "Povoliť ovládač?"
+
+#: ../jockey/ui/__init__.py:665
+msgid "Disable driver?"
+msgstr "Zakázať ovládač?"
+
+#: ../jockey/ui/__init__.py:698
+msgid "Sorry, the Jockey backend crashed. Please file a bug at:"
+msgstr "Prepáčte, Jockey backend spadol. Nahláste, prosím, chybu na:"
+
+#: ../jockey/ui/__init__.py:699
+msgid "Trying to recover by restarting backend."
+msgstr "Pokus o obnovu reštartovaním backendu."
+
+#: ../jockey/ui/__init__.py:717
+msgid "Sorry, installation of this driver failed."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:718
+msgid "Please have a look at the log file for details"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:722
+msgid "Installation Successful"
+msgstr ""
+
+#: ../jockey/ui/__init__.py:781
+msgid "Download error"
+msgstr "Chyba pri sťahovaní"
+
+#: ../jockey/ui/__init__.py:908
+msgid ""
+"Downloading package indexes failed, please check your network status. Most "
+"drivers will not be available."
+msgstr ""
+
+#: ../jockey/ui/__init__.py:978
+#, python-format
+msgid "Searching driver for %s..."
+msgstr "Vyhľadáva sa ovládač pre %s..."
+
+#: ../jockey/ui/gtk/jockey-gtk.desktop.in.h:2
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:2
+msgid "Configure third-party and proprietary drivers"
+msgstr "Nastaviť ovládače tretích strán a neslobodné ovládače"
+
+#: ../jockey/ui/text/jockey-text:72
+msgid "Please enter 'y' or 'n' and press Enter"
+msgstr ""
+
+#. translators: %s is the path to xorg.conf
+#: ../jockey/xorg_driver.py:99
+#, python-format
+msgid "Reconfiguring X.org video drivers is not possible: %s is invalid."
+msgstr "Prekonfigurovanie video ovládačov X.org nie je možné: %s je neplatný."
+
+#: ../data/handlers/pvr-omap4.py:99
+#, fuzzy
+msgid "PowerVR SGX proprietary graphics driver for OMAP 4"
+msgstr "3D-akcelerovaný neslobodný grafický ovládač pre karty ATI."
+
+#: ../data/handlers/pvr-omap4.py:103
+#, fuzzy
+msgid "3D-accelerated proprietary graphics driver for OMAP 4 SoCs."
+msgstr "3D-akcelerovaný neslobodný grafický ovládač pre karty ATI."
+
+#: ../data/handlers/pvr-omap4.py:105
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of OMAP 4 powered "
+"boards."
+msgstr ""
+"Tento ovládač je vyžadovaný na úplné využitie 3D potenciálu niektorých "
+"grafických kariet  ATI, tiež poskytuje 2D akceleráciu na novších kartách."
+
+#: ../data/handlers/nvidia.py:26
+#, fuzzy
+msgid "NVIDIA accelerated graphics driver (post-release updates)"
+msgstr "Akcelerovaný grafický ovládač kariet NVIDIA"
+
+#: ../data/handlers/nvidia.py:28
+msgid "NVIDIA accelerated graphics driver"
+msgstr "Akcelerovaný grafický ovládač kariet NVIDIA"
+
+#: ../data/handlers/nvidia.py:34
+#, fuzzy
+msgid ""
+"3D-accelerated proprietary graphics driver for NVIDIA cards. Required if you "
+"want to run Unity."
+msgstr "3D-akcelerovaný neslobodný grafický ovládač pre karty NVIDIA."
+
+#: ../data/handlers/nvidia.py:36
+#, fuzzy
+msgid ""
+"This driver is required to fully utilise the 3D potential of NVIDIA graphics "
+"cards, as well as provide 2D acceleration of newer cards.\n"
+"\n"
+"You need to install this driver if you wish to use the Unity desktop, enable "
+"desktop effects, or run software that requires 3D acceleration, such as some "
+"games."
+msgstr ""
+"Tento ovládač je potrebný k plnému využitiu 3D potenciálu grafických kariet "
+"NVIDIA ako aj k poskytnutiu 2D akcelerácie na novších kartách.\n"
+"\n"
+"Ak chcete povoliť efekty prostredia, je potrebné použiť tento ovládač.\n"
+"\n"
+"Ak zakážete tento ovládač, nebude možné použiť efekty prostredia a používať "
+"programy vyžadujúce 3D akceleráciu napr. niektoré hry."
+
+#: ../jockey/handlers.py:121 ../jockey/handlers.py:363
+#, python-format
+msgid ""
+"Driver Information:\n"
+"License: %(license)s\n"
+"Author: %(author)s\n"
+"Version: %(version)s\n"
+"Dependencies: %(depends)s\n"
+"Firmware: %(firmware)s\n"
+msgstr ""
+
+#: ../jockey/handlers.py:348
+#, python-format
+msgid "%s (unsupported)"
+msgstr ""
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:1
+msgid "Get information about local device drivers"
+msgstr "Získať informácie o lokálnych ovládačoch zariadení"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:2
+msgid "To query the device drivers, you need to authenticate."
+msgstr "Overenie totožnosti je potrebné na získanie ovládačov pre zariadenia."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:3
+msgid "Check for newly available drivers for, and used drivers on this system"
+msgstr "Skontrolovať nové a použité ovládače pre tento systém."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:4
+msgid "To check the driver status, you need to authenticate."
+msgstr "Overenie totožnosti je potrebné na skontrolovanie stavu ovládačov."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:5
+msgid ""
+"Query local and remote driver databases for updated drivers for the system"
+msgstr ""
+"Hľadať aktualizované ovládače pre váš systém v lokálnych a vzdialených "
+"databázach."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:6
+msgid "To query the driver databases for updates, you need to authenticate."
+msgstr ""
+"Overenie totožnosti je potrebné na získanie aktualizácií databázy ovládačov."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:7
+msgid "Install or remove device drivers"
+msgstr "Inštalovať alebo odstrániť ovládače zariadení"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:8
+msgid "To install or remove device drivers, you need to authenticate."
+msgstr ""
+"Overenie totožnosti je potrebné na inštaláciu alebo odstránenie ovládačov "
+"zariadenia."
+
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:1
+msgid "Check for new hardware drivers"
+msgstr "Skontrolovať nové ovládače hardvéru"
+
+#: ../data/handlers/broadcom_wl.py:20
+msgid "Broadcom STA wireless driver"
+msgstr ""
+
+#: ../data/handlers/sl_modem.py:15
+msgid "Software modem"
+msgstr "Sofvérový modem"
+
+#: ../data/handlers/sl_modem.py:17
+msgid ""
+"This driver enables the usage of many software modems, as commonly found in "
+"laptops.\n"
+"\n"
+"If this driver is not enabled, you will not be able to use your modem."
+msgstr ""
+"Tento ovládač umožňuje používanie mnohých softvérových modemov, ktoré sa "
+"nachádzajú v prenosných počítačoch.\n"
+"Ak nie je tento ovládač povolený, nebudete môcť používať váš modem."
+
+#: ../data/handlers/vmware-client.py:17
+msgid "VMWare Client Tools"
+msgstr "Klientské nástroje VMWare"
+
+#: ../data/handlers/vmware-client.py:18
+msgid "Install VMWare client drivers and tools"
+msgstr "Nainštalovať klientské ovládače a nástroje VMWare"
+
+#: ../data/handlers/vmware-client.py:19
+#, fuzzy
+msgid ""
+"Install the VMWare client drivers and tools for your VMWare based "
+"installation.\n"
+"\n"
+"This should help you use your VM."
+msgstr ""
+"Nainštalovať klientské ovládače VMWare pre Vašu inštaláciu Ubuntu vo "
+"VMWare.\n"
+"\n"
+"Toto vám pomôže používať Ubuntu vo vašom VM."
+
+#: ../data/handlers/madwifi.py:22
+msgid "Alternate Atheros \"madwifi\" driver"
+msgstr ""
+
+#: ../data/handlers/madwifi.py:23
+msgid "Alternate \"madwifi\" driver for Atheros wireless LAN cards."
+msgstr ""
+
+#: ../data/handlers/madwifi.py:24
+msgid ""
+"Only activate this driver if you have problems with your wireless LAN "
+"connection.\n"
+"\n"
+"The free \"ath5k\" driver should work with most Atheros cards nowadays, but "
+"on some computers this alternate (but proprietary) driver still works "
+"better, or at all."
+msgstr ""
+"Aktivujte tento ovládač len vtedy, keď máte problémy s vaším bezdrôtovým LAN "
+"pripojením.\n"
+"\n"
+"Slobodný \"ath5k\" ovládač by mal v dnešnej dobe pracovať s väčšinou Atheros "
+"kariet, ale stále na niektorých počítačoch tento alternatívny (ale "
+"neslobodný) ovládač pracuje lepšie, alebo je jedinou voľbou."
+
+#: ../data/handlers/madwifi.py:38
+#, python-format
+msgid "You removed the configuration file %s"
+msgstr ""
+
+#~ msgid ""
+#~ "Use a different target kernel version than the currently running one."
+#~ msgstr "Použiť iné cieľové jadro verzie, ktorá sa líši od práve bežiacej."
+
+#~ msgid "AMD proprietary FGLRX graphics driver"
+#~ msgstr "AMD neslobodný FGLRX grafický ovládač"
+
+#~ msgid "3D-accelerated proprietary graphics driver for AMD (ATI) cards."
+#~ msgstr "3D-akcelerovaný neslobodný grafický ovládač pre karty AMD (ATI)."
+
+#~ msgid ""
+#~ "This driver is required to fully utilise the 3D potential of some AMD "
+#~ "(ATI) graphics cards, as well as provide 2D acceleration of newer cards."
+#~ msgstr ""
+#~ "Tento ovládač je potrebný pre plné využitie 3D potenciálu niektorých "
+#~ "grafických kariet AMD (ATI), rovnako poskytuje 2D akceleráciu pre novšie "
+#~ "karty."
+
+#~ msgid "Cannot connect to D-BUS"
+#~ msgstr "Nepodarilo sa pripojiť k D-BUS"
+
+#~ msgid "Restricted Hardware Drivers"
+#~ msgstr "Uzavreté ovládače hardvéru"
+
+#~ msgid "Hardware Drivers"
+#~ msgstr "Ovládače hardvéru"
+
+#~ msgid ""
+#~ "Proprietary drivers do not have public source code that %(os)s developers "
+#~ "are free to modify. They represent a risk to you because they are only "
+#~ "available on the types of computer chosen by the manufacturer, and "
+#~ "security updates to them depend solely on the responsiveness of the "
+#~ "manufacturer. %(os)s cannot fix or improve these drivers."
+#~ msgstr ""
+#~ "Uzavreté ovládače nemajú voľne dostupný zdrojový kód, ktorý vývojári "
+#~ "%(os)s majú právo upravovať. Tieto ovládače sú pre vás rizikové, pretože "
+#~ "sú dostupné len na tých počítačoch, ktoré vyberie výrobca. Aktualizácie a "
+#~ "opravy chýb sú u týchto ovládačov závislé len na výrobcovi. %(os)s nemôže "
+#~ "také ovládače ani opraviť, ani vylepšiť."
+
+#~ msgid "System policy prevents installation/removal of device drivers"
+#~ msgstr ""
+#~ "Systémové pravidlá bránia inštalácii/odstráneniu ovládačov zariadení"
+
+#~ msgid "System policy prevents checking driver status"
+#~ msgstr "Systémové pravidlá bránia kontrole stavu ovládača"
+
+#~ msgid "System policy prevents querying driver databases for updates"
+#~ msgstr ""
+#~ "Systémové pravidlá bránia vyhľadaniu aktualizácií v databáze ovládačov"
+
+#~ msgid "System policy prevents querying device drivers"
+#~ msgstr "Systémové pravidlá bránia vyhľadaniu ovládačov zariadení"

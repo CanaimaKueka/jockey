@@ -1,0 +1,20 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="jockey-whyproprietary">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <link type="next" xref="jockey-enable"/>
+  </info>
+
+  <title>01-. ¿Por qué algunos controladores son propietarios?</title>
+
+  <p><em>Los controladores propietarios son aquellos que no son distribuidos libremente o de código abierto.</em></p>
+  <p>La mayor parte de los dispositivos (Hardware) conectado a su computador debería funcionar correctamente. Estos dispositivos posiblemente tengan controladores <em>libres</em>, lo que significa que éstos pueden ser modificados por los desarrolladores y los problemas que estos presenten pueden ser resueltos.</p>
+  <p>Algunos dispositivos no cuentan con controladores libres, normalmente debido a que sus fabricantes no han publicado detalles sobre su Hardware que permitan la creación de estos controladores. Estos dispositivos pueden tener funcionalidades limitadas o no funcionar en su totalidad.</p>
+  <p>Si un <em>controlador propietario</em> está disponible para cierto dispositivo, usted puede instalarlo para permitir que su dispositivo funcione correctamente o para añadir nuevas características. Por ejemplo, al instalar un controlador propietario para ciertas tarjetas de video usted podría tener acceso a efectos visuales más avanzados.</p>
+  <p>Algunos computadores pueden no tener algún dispositivo que necesite de controladores propietarios, sea porque todos sus dispositivos están soportados por controladores libres o porque no hay un controlador propietario disponible para el dispositivo.</p>
+  <note style="warning">
+    <p>Los controladores propietarios son mantenidos, normalmente, por los fabricantes de los dispositivos. Por esta razón, estos no pueden ser modificados por los desarrolladores si se presenta algún problema.</p>
+  </note>
+</page>

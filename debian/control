@@ -1,0 +1,43 @@
+Source: jockey
+Section: admin
+Priority: optional
+Maintainer: Sebastián Ramírez Magrí <sebasmagri@gmail.com>
+Build-Depends: debhelper (>= 8.0.0),
+ python-distutils-extra (>=2.36),
+ python-support,
+ python (>= 2.7)
+Standards-Version: 3.9.3
+Vcs-Git: http://git.hardware.armadillotec.com/xkit.git
+Vcs-Browser: http://git.hardware.armadillotec.com/xkit.git
+
+Package: jockey-common
+Architecture: all
+Depends: ${python:Depends},
+ ${misc:Depends},
+ python-xkit (>= 0.4.2),
+ python-dbus,
+ python-apt,
+ python-pycurl,
+ policykit-1
+Recommends: nvidia-common
+Description:  user interface and desktop integration for driver management
+ Jockey provides a user interface for configuring third-party drivers,
+ such as the Nvidia and ATI fglrx X.org and various Wireless LAN
+ kernel modules.
+ .
+ This package contains the common data shared between the frontends.
+
+Package: jockey-gtk
+Architecture: all
+Depends: ${python:Depends},
+ ${misc:Depends},
+ jockey-common (= ${binary:Version}),
+ python-gi,
+ gir1.2-gtk-3.0,
+ gir1.2-notify-0.7,
+ gir1.2-gudev-1.0,
+ policykit-1-gnome
+Description: GNOME user interface and desktop integration for driver management
+ Jockey provides a user interface for configuring third-party drivers,
+ such as the Nvidia and ATI fglrx X.org and various Wireless LAN
+ kernel modules.

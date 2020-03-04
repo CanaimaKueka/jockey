@@ -1,0 +1,770 @@
+# Spanish translation for restricted-manager
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the restricted-manager package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+# Erick Birbe <erickcion@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: restricted-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-21 11:12-0430\n"
+"PO-Revision-Date: 2013-10-21 11:19-0430\n"
+"Last-Translator: Erick Birbe <erickcion@gmail.com>\n"
+"Language-Team: Español; Castellano <desarrolladores@canaima.softwarelibre."
+"gob.ve>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
+"X-Generator: Launchpad (build 14900)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:1
+msgid "Monitor new hardware drivers"
+msgstr "Vigilar nuevos controladores de Hardware"
+
+#: ../jockey/ui/devmon/autostart/jockey-device-monitor.desktop.in.h:2
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:2
+msgid "Notify about new hardware drivers available for the system"
+msgstr ""
+"Notificar cuando existan nuevos controladores disponibles para el sistema"
+
+#: ../data/handlers/dvb_usb_firmware.py:21
+msgid "Firmware for DVB cards"
+msgstr "Firmware para tarjetas DVB"
+
+#: ../data/handlers/fglrx.py:23
+msgid "ATI/AMD proprietary FGLRX graphics driver (post-release updates)"
+msgstr "Controlador gráfico FGLRX privativo para ATI/AMD"
+
+#: ../data/handlers/fglrx.py:25
+msgid "ATI/AMD proprietary FGLRX graphics driver"
+msgstr "Controlador gráfico FGLRX privativo para ATI/AMD"
+
+#: ../data/handlers/fglrx.py:31
+msgid "3D-accelerated proprietary graphics driver for ATI cards."
+msgstr "Controlador privativo de aceleración 3D para tarjetas gráficas ATI."
+
+#: ../data/handlers/fglrx.py:33
+msgid ""
+"This driver is required to fully utilise the 3D potential of some ATI "
+"graphics cards, as well as provide 2D acceleration of newer cards."
+msgstr ""
+"Este controlador se necesita para utilizar todo el potencial 3D de algunas "
+"tarjetas gráficas ATI, así como para proporcionar aceleración 2D a las "
+"nuevas tarjetas."
+
+#: ../jockey/ui/__init__.py:125
+msgid ""
+"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
+"jockey without it."
+msgstr ""
+"No se pudo conectar a D-BUS, por favor use la opción --no-dbus para usar "
+"jockey sin D-BUS."
+
+#: ../jockey/ui/__init__.py:136 ../jockey/ui/__init__.py:149
+msgid "Searching for available drivers..."
+msgstr "Buscando controladores disponibles..."
+
+#: ../jockey/ui/__init__.py:174
+msgid "Component"
+msgstr "Componente"
+
+#: ../jockey/ui/__init__.py:175
+msgid "_Enable"
+msgstr "_Activar"
+
+#: ../jockey/ui/__init__.py:176
+msgid "_Disable"
+msgstr "_Desactivar"
+
+#: ../jockey/ui/__init__.py:177
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: ../jockey/ui/__init__.py:178
+msgid "Enabled"
+msgstr "Activado"
+
+#: ../jockey/ui/__init__.py:179
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: ../jockey/ui/__init__.py:180
+msgid "Status"
+msgstr "Estado"
+
+#: ../jockey/ui/__init__.py:181
+msgid "Needs computer restart"
+msgstr "Necesita reiniciar su equipo"
+
+#: ../jockey/ui/__init__.py:182
+msgid "In use"
+msgstr "En uso"
+
+#: ../jockey/ui/__init__.py:183
+msgid "Not in use"
+msgstr "No está en uso"
+
+#: ../jockey/ui/__init__.py:184
+msgid "License:"
+msgstr "Licencia:"
+
+#: ../jockey/ui/__init__.py:185
+msgid "details"
+msgstr "detalles"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:187
+msgid "Free"
+msgstr "Libre"
+
+#. this is used in the GUI and in --list output to denote free/restricted drivers
+#: ../jockey/ui/__init__.py:189
+msgid "Proprietary"
+msgstr "Privativo"
+
+#: ../jockey/ui/__init__.py:190
+msgid "Download in progress"
+msgstr "Descarga en curso"
+
+#: ../jockey/ui/__init__.py:191
+msgid "Unknown driver"
+msgstr "Controlador desconocido"
+
+#: ../jockey/ui/__init__.py:192
+msgid "You are not authorized to perform this action."
+msgstr "No está autorizado para llevar a cabo esta acción."
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:194
+#, python-format
+msgid "Tested by the %s developers"
+msgstr "Probado por los desarrolladores de %s"
+
+#. %s is the name of the operating system
+#: ../jockey/ui/__init__.py:196
+#, python-format
+msgid "Not tested by the %s developers"
+msgstr "No probado por los desarrolladores de %s"
+
+#. this is used when one version of a driver is recommended over others
+#: ../jockey/ui/__init__.py:198
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: ../jockey/ui/__init__.py:199
+msgid "License Text for Device Driver"
+msgstr "Texto de la licencia para el controlador del dispositivo"
+
+#: ../jockey/ui/__init__.py:200
+msgid "Install Drivers"
+msgstr "Instalar controladores"
+
+#: ../jockey/ui/__init__.py:201
+msgid "Driver Unsupported"
+msgstr "Controlador no soportado"
+
+#: ../jockey/ui/__init__.py:202
+msgid "Show"
+msgstr "Mostrar"
+
+#: ../jockey/ui/__init__.py:211
+msgid "Restricted Additional Drivers"
+msgstr "Controladores adicionales restringidos"
+
+#: ../jockey/ui/__init__.py:213 ../jockey/ui/__init__.py:618
+#: ../jockey/ui/__init__.py:626 ../jockey/ui/__init__.py:634
+#: ../jockey/ui/__init__.py:909 ../jockey/ui/gtk/jockey-gtk.desktop.in.h:1
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:1
+msgid "Additional Drivers"
+msgstr "Controladores adicionales"
+
+#: ../jockey/ui/__init__.py:223
+msgid "Driver search results"
+msgstr "Resultados de la búsqueda de controladores"
+
+#: ../jockey/ui/__init__.py:240
+msgid "Proprietary drivers are being used to make this computer work properly."
+msgstr ""
+"Se están usando controladores privativos para que este equipo funcione "
+"correctamente."
+
+#: ../jockey/ui/__init__.py:243
+msgid "No proprietary drivers are in use on this system."
+msgstr "No se están usando controladores privativos en este sistema."
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:249
+#, python-format
+msgid ""
+"Proprietary drivers do not have public source code that %(os)s developers "
+"are free to modify. Security updates and corrections depend solely on the "
+"responsiveness of the manufacturer. %(os)s cannot fix or improve these "
+"drivers."
+msgstr ""
+"Los controladores privativos no tienen código fuente público que los "
+"desarrolladores de %(os)s puedan modificar. Las actualizaciones de seguridad "
+"y las correcciones dependen únicamente de la capacidad de respuesta del "
+"fabricante. %(os)s no puede arreglar ni mejorar esos controladores."
+
+#: ../jockey/ui/__init__.py:262
+msgid "Graphics driver"
+msgstr "Controlador gráfico"
+
+#: ../jockey/ui/__init__.py:264
+msgid "Firmware"
+msgstr "Firmware"
+
+#: ../jockey/ui/__init__.py:266
+msgid "Device driver"
+msgstr "Controlador de dispositivo"
+
+#: ../jockey/ui/__init__.py:276
+#, python-format
+msgid "version %s"
+msgstr "versión %s"
+
+#: ../jockey/ui/__init__.py:339
+msgid "_Remove"
+msgstr "E_liminar"
+
+#: ../jockey/ui/__init__.py:341
+msgid "_Deactivate"
+msgstr "_Desactivar"
+
+#: ../jockey/ui/__init__.py:344
+msgid "This driver is activated and currently in use."
+msgstr "Este controlador está activado y se está usando actualmente."
+
+#: ../jockey/ui/__init__.py:348
+msgid "You need to restart the computer to activate this driver."
+msgstr "Debe reiniciar el equipo para activar este controlador."
+
+#: ../jockey/ui/__init__.py:350
+msgid "This driver is activated but not currently in use."
+msgstr "El controlador está activado pero no se está usando actualmente."
+
+#: ../jockey/ui/__init__.py:352
+msgid "_Activate"
+msgstr "_Activar"
+
+#: ../jockey/ui/__init__.py:356
+msgid "This driver was just disabled, but is still in use."
+msgstr ""
+"Este controlador acaba de ser desactivado, pero todavía se está usando."
+
+#: ../jockey/ui/__init__.py:358
+msgid "A different version of this driver is in use."
+msgstr "Se está usando una versión diferente de este controlador."
+
+#: ../jockey/ui/__init__.py:361
+msgid "This driver is not activated and is ignored in notifications."
+msgstr ""
+"Este controlador no está activado y está siendo ignorado en las "
+"notificaciones."
+
+#: ../jockey/ui/__init__.py:363
+msgid "This driver is not activated."
+msgstr "Este controlador no está activado."
+
+#: ../jockey/ui/__init__.py:366
+msgid "This driver is not supported."
+msgstr "Este controlador no está soportado."
+
+#: ../jockey/ui/__init__.py:387
+msgid "Check for newly used or usable drivers and notify the user."
+msgstr ""
+"Comprobar si se están usando (o pueden usarse) controladores nuevos, y "
+"notificarlo al usuario."
+
+#: ../jockey/ui/__init__.py:390
+msgid "Set a session id for notifications."
+msgstr "Configura un ID de sesión para las notificaciones."
+
+#: ../jockey/ui/__init__.py:393
+msgid "Query driver databases for newly available or updated drivers."
+msgstr ""
+"Consultar la bases de datos de controladores en busca de controladores "
+"nuevos o actualizados."
+
+#: ../jockey/ui/__init__.py:396
+msgid "List available drivers and their status."
+msgstr "Listar los controladores disponibles, y su estado."
+
+#: ../jockey/ui/__init__.py:399
+msgid "Enable drivers that can be automatically installed."
+msgstr "Activar controladores que pueden ser instalados automáticamente."
+
+#: ../jockey/ui/__init__.py:402
+msgid "List hardware identifiers from this system."
+msgstr "Mostrar los identificadores hardware de este sistema"
+
+#: ../jockey/ui/__init__.py:405
+msgid "Enable a driver"
+msgstr "Activar un controlador"
+
+#: ../jockey/ui/__init__.py:408
+msgid "Disable a driver"
+msgstr "Desactivar un controlador"
+
+#: ../jockey/ui/__init__.py:411
+msgid "Ask for confirmation for --enable/--disable"
+msgstr "Pedir confirmación para --enable/--disable"
+
+#: ../jockey/ui/__init__.py:414
+msgid ""
+"Check if there is a graphics driver available that supports composite and "
+"offer to enable it"
+msgstr ""
+"Comprobar si existe un controlador gráfico disponible que soporte "
+"composición, y ofrecer activarlo"
+
+#: ../jockey/ui/__init__.py:419
+msgid ""
+"Only manage free/nonfree drivers. By default, all available drivers with any "
+"license are presented."
+msgstr ""
+"Gestionar sólo controladores libres/no libres. De manera predeterminada se "
+"presentan todos los controladores con cualquier tipo de licencia."
+
+#: ../jockey/ui/__init__.py:423
+msgid "Run as session D-BUS server."
+msgstr "Ejecutar como servidor D-BUS de sesión."
+
+#: ../jockey/ui/__init__.py:425
+msgid ""
+"Do not use D-BUS for communicating with the backend. Needs root privileges."
+msgstr ""
+"No usar D-BUS para comunicar con el motor. Necesita tener privilegios de "
+"superusuario."
+
+#: ../jockey/ui/__init__.py:427
+msgid ""
+"Use a different target kernel version than the currently running one. This "
+"is only relevant with --no-dbus."
+msgstr ""
+"Utilice una versión del núcleo de destino diferente a la actualmente en "
+"ejecución. Esto es aplicable solo con --no-dbus."
+
+#: ../jockey/ui/__init__.py:575
+msgid "Restricted drivers available"
+msgstr "Controladores restringidos disponibles"
+
+#: ../jockey/ui/__init__.py:576
+msgid ""
+"In order to use your hardware more efficiently, you can enable drivers which "
+"are not free software."
+msgstr ""
+"Con el fin de utilizar de manera más eficiente su hardware, puede activar "
+"los controladores que no son software libre."
+
+#: ../jockey/ui/__init__.py:579
+msgid "New drivers available"
+msgstr "Nuevos controladores disponibles"
+
+#: ../jockey/ui/__init__.py:580
+msgid "There are new or updated drivers available for your hardware."
+msgstr "Hay controladores nuevos o actualizados para su hardware."
+
+#: ../jockey/ui/__init__.py:584
+msgid "New restricted drivers in use"
+msgstr "Nuevos controladores restringidos en uso"
+
+#. %(os)s stands for the OS name. Prefix it or suffix it,
+#. but do not replace it.
+#: ../jockey/ui/__init__.py:587
+#, python-format
+msgid ""
+"In order for this computer to function properly, %(os)s is using driver "
+"software that cannot be supported by %(os)s."
+msgstr ""
+"Para que este equipo pueda funcionar correctamente, %(os)s está usando "
+"software controlador que no está soportado por %(os)s."
+
+#: ../jockey/ui/__init__.py:613
+msgid ""
+"There is no available graphics driver for your system which supports the "
+"composite extension, or the current one already supports it."
+msgstr ""
+"No hay ningún controlador gráfico disponible para su sistema que soporte la "
+"extensión de composición, o bien el actual ya lo soporta."
+
+#: ../jockey/ui/__init__.py:619
+msgid "Downloading and installing driver..."
+msgstr "Descargando e instalando el controlador..."
+
+#: ../jockey/ui/__init__.py:627
+msgid "Removing driver..."
+msgstr "Desinstalando el controlador..."
+
+#: ../jockey/ui/__init__.py:635
+msgid "Downloading and updating package indexes..."
+msgstr "Descargando y actualizando índices de paquetes..."
+
+#: ../jockey/ui/__init__.py:657
+msgid "Use --list to see available drivers"
+msgstr "Use --list para ver los controladores disponibles"
+
+#: ../jockey/ui/__init__.py:675
+msgid "Cannot change driver"
+msgstr "No se puede cambiar el controlador"
+
+#: ../jockey/ui/__init__.py:688
+msgid "Enable driver?"
+msgstr "¿Activar el controlador?"
+
+#: ../jockey/ui/__init__.py:691
+msgid "Disable driver?"
+msgstr "¿Desactivar el controlador?"
+
+#: ../jockey/ui/__init__.py:724
+msgid "Sorry, the Jockey backend crashed. Please file a bug at:"
+msgstr "Lo sentimos; ha fallado el motor de Jockey. Informe del fallo en:"
+
+#: ../jockey/ui/__init__.py:725
+msgid "Trying to recover by restarting backend."
+msgstr "Intentando recuperarse reiniciando el motor."
+
+#: ../jockey/ui/__init__.py:743
+msgid "Sorry, installation of this driver failed."
+msgstr "Lo sentimos, la instalación de este controlador falló."
+
+#: ../jockey/ui/__init__.py:744
+msgid "Please have a look at the log file for details"
+msgstr "Revise el archivo de registro para ver más detalles"
+
+#: ../jockey/ui/__init__.py:748
+msgid "Installation Successful"
+msgstr "La instalación fue exitosa"
+
+#: ../jockey/ui/__init__.py:750
+#, python-format
+msgid "Driver for %s was successfully installed."
+msgstr "El controlador de %s fue instalado exitosamente"
+
+#: ../jockey/ui/__init__.py:797
+#, python-format
+msgid ""
+"Driver Information:\n"
+"License: %(license)s\n"
+"Author: %(author)s\n"
+"Version: %(version)s\n"
+"Dependencies: %(depends)s\n"
+"Firmware: %(firmware)s\n"
+msgstr ""
+"Información del controlador:\n"
+"Licencia: %(license)s\n"
+"Autor: %(author)s\n"
+"Version: %(version)s\n"
+"Dependencias: %(depends)s\n"
+"Firmware: %(firmware)s\n"
+
+#: ../jockey/ui/__init__.py:813
+msgid ""
+"This device is not supported for\n"
+"automated installation and we have found\n"
+"that this is probably not active in the system.\n"
+"\n"
+"\n"
+"The following information was automatically\n"
+"collected so you can use it to research\n"
+"about the device.\n"
+msgstr ""
+"Este dispositivo no está soportado para\n"
+"su instalación automática y hemos detectado\n"
+"que probablemente no está activo en el sistema\n"
+"\n"
+"La siguiente información fue recolectada\n"
+"automáticamente de manera que usted pueda usarla\n"
+"para investigar sobre el mismo\n"
+
+#: ../jockey/ui/__init__.py:840
+msgid "Download error"
+msgstr "Error de descarga"
+
+#: ../jockey/ui/__init__.py:967
+msgid ""
+"Downloading package indexes failed, please check your network status. Most "
+"drivers will not be available."
+msgstr ""
+"No se han podido descargar los índices de paquetes; compruebe el estado de "
+"su red. La mayoría de los controladores no estarán disponibles."
+
+#: ../jockey/ui/__init__.py:1037
+#, python-format
+msgid "Searching driver for %s..."
+msgstr "Buscando controladores para %s..."
+
+#: ../jockey/ui/gtk/jockey-gtk.desktop.in.h:2
+#: ../jockey/ui/kde/jockey-kde.desktop.in.h:2
+msgid "Configure third-party and proprietary drivers"
+msgstr "Configurar controladores privativos y de terceros"
+
+#: ../jockey/ui/text/jockey-text:72
+msgid "Please enter 'y' or 'n' and press Enter"
+msgstr "Introduzca «s» o «n» y pulse Intro"
+
+#. translators: %s is the path to xorg.conf
+#: ../jockey/xorg_driver.py:99
+#, python-format
+msgid "Reconfiguring X.org video drivers is not possible: %s is invalid."
+msgstr ""
+"No es posible reconfigurar los controladores de vídeo de X.org: %s es "
+"incorrecto."
+
+#: ../data/handlers/pvr-omap4.py:99
+msgid "PowerVR SGX proprietary graphics driver for OMAP 4"
+msgstr "Controlador privativo de aceleración 3D para tarjetas gráficas ATI."
+
+#: ../data/handlers/pvr-omap4.py:103
+msgid "3D-accelerated proprietary graphics driver for OMAP 4 SoCs."
+msgstr "Controlador privativo de aceleración 3D para tarjetas gráficas ATI."
+
+#: ../data/handlers/pvr-omap4.py:105
+msgid ""
+"This driver is required to fully utilise the 3D potential of OMAP 4 powered "
+"boards."
+msgstr ""
+"Este controlador se necesita para utilizar todo el potencial 3D de algunas "
+"tarjetas gráficas ATI, así como para proporcionar aceleración 2D a las "
+"nuevas tarjetas."
+
+#: ../data/handlers/nvidia.py:26
+msgid "NVIDIA accelerated graphics driver (post-release updates)"
+msgstr "Controlador para tarjetas gráficas NVIDIA"
+
+#: ../data/handlers/nvidia.py:28
+msgid "NVIDIA accelerated graphics driver"
+msgstr "Controlador para tarjetas gráficas NVIDIA"
+
+#: ../data/handlers/nvidia.py:34
+msgid ""
+"3D-accelerated proprietary graphics driver for NVIDIA cards. Required if you "
+"want to run Unity."
+msgstr "Controlador privativo de aceleración 3D para tarjetas gráficas NVIDIA."
+
+#: ../data/handlers/nvidia.py:36
+msgid ""
+"This driver is required to fully utilise the 3D potential of NVIDIA graphics "
+"cards, as well as provide 2D acceleration of newer cards.\n"
+"\n"
+"You need to install this driver if you wish to use the Unity desktop, enable "
+"desktop effects, or run software that requires 3D acceleration, such as some "
+"games."
+msgstr ""
+"Este controlador es necesario para usar totalmente el potencial 3D de las "
+"tarjetas gráficas NVIDIA, así como para proporcionar aceleración 2D en "
+"tarjetas más nuevas.\n"
+"\n"
+"Si desea activar los efectos de escritorio, necesitará este controlador.\n"
+"\n"
+"Si no habilita este controlador, no podrá activar los efectos de escritorio, "
+"y no podrá ejecutar software que necesite aceleración 3D, como es el caso de "
+"algunos juegos."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:1
+msgid "Get information about local device drivers"
+msgstr "Obtener información sobre controladores de dispositivo locales"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:2
+msgid "To query the device drivers, you need to authenticate."
+msgstr "Para consultar los controladores de dispositivo, debe autenticarse."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:3
+msgid "Check for newly available drivers for, and used drivers on this system"
+msgstr "Comprobar si hay nuevos controladores disponibles para este sistema"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:4
+msgid "To check the driver status, you need to authenticate."
+msgstr "Para comprobar los controladores de dispositivo, debe autenticarse."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:5
+msgid ""
+"Query local and remote driver databases for updated drivers for the system"
+msgstr ""
+"Consultar bases de datos locales y remotas de controladores en busca de "
+"controladores actualizados para el sistema"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:6
+msgid "To query the driver databases for updates, you need to authenticate."
+msgstr ""
+"Para consultar las bases de datos de controladores para actualización, debe "
+"autenticarse."
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:7
+msgid "Install or remove device drivers"
+msgstr "Instalar o desinstalar controladores de dispositivo"
+
+#: ../jockey/ui/backend/com.ubuntu.devicedriver.policy.in.h:8
+msgid "To install or remove device drivers, you need to authenticate."
+msgstr ""
+"Para instalar o borrar controladores de dispositivo, debe autenticarse."
+
+#: ../jockey/ui/kde/autostart/jockey-kde.desktop.in.h:1
+msgid "Check for new hardware drivers"
+msgstr "Buscar nuevos controladores de hardware"
+
+#: ../data/handlers/broadcom_wl.py:20
+msgid "Broadcom STA wireless driver"
+msgstr "Controlador para inalámbricas Broadcom STA"
+
+#: ../data/handlers/sl_modem.py:15
+msgid "Software modem"
+msgstr "Módem por software"
+
+#: ../data/handlers/sl_modem.py:17
+msgid ""
+"This driver enables the usage of many software modems, as commonly found in "
+"laptops.\n"
+"\n"
+"If this driver is not enabled, you will not be able to use your modem."
+msgstr ""
+"Este controlador activa el uso de muchos módem por software, muy habituales "
+"en portátiles.\n"
+"\n"
+"Si no activa el controlador, no podrá usar su módem."
+
+#: ../data/handlers/vmware-client.py:17
+msgid "VMWare Client Tools"
+msgstr "Herramientas de cliente VMWare"
+
+#: ../data/handlers/vmware-client.py:18
+msgid "Install VMWare client drivers and tools"
+msgstr "Instalar controladores de cliente y herramientas de VMWare"
+
+#: ../data/handlers/vmware-client.py:19
+msgid ""
+"Install the VMWare client drivers and tools for your VMWare based "
+"installation.\n"
+"\n"
+"This should help you use your VM."
+msgstr ""
+"Instale los controladores de cliente y las herramientas para VMWare basadas "
+"en la instalación de Ubuntu.\n"
+"\n"
+"Esto te ayudaría a usar Ubuntu en una máquina virtual."
+
+#: ../data/handlers/madwifi.py:22
+msgid "Alternate Atheros \"madwifi\" driver"
+msgstr "Controlador Atheros «madwifi» alternativo"
+
+#: ../data/handlers/madwifi.py:23
+msgid "Alternate \"madwifi\" driver for Atheros wireless LAN cards."
+msgstr ""
+"Controlador «madwifi» alternativo para tarjetas inalámbricas LAN Atheros"
+
+#: ../data/handlers/madwifi.py:24
+msgid ""
+"Only activate this driver if you have problems with your wireless LAN "
+"connection.\n"
+"\n"
+"The free \"ath5k\" driver should work with most Atheros cards nowadays, but "
+"on some computers this alternate (but proprietary) driver still works "
+"better, or at all."
+msgstr ""
+"Active este controlador solo si tiene problemas con su conexión LAN "
+"inalámbrica.\n"
+"\n"
+"Actualmente, el controlador libre «ath5» debería funcionar con la mayoría de "
+"las tarjetas Atheros, pero en algunos equipos este controlador alternativo "
+"(aunque privativo) funciona mejor, o simplemente funciona."
+
+#: ../data/handlers/madwifi.py:38
+#, python-format
+msgid "You removed the configuration file %s"
+msgstr "Eliminó el archivo de configuración %s"
+
+#~ msgid "_Notify"
+#~ msgstr "_Notificar"
+
+#~ msgid "%s (unsupported)"
+#~ msgstr "%s (no soportado)"
+
+#~ msgid "y\n"
+#~ msgstr "s\n"
+
+#~ msgid "n\n"
+#~ msgstr "n\n"
+
+#~ msgid "Enable debugging messages."
+#~ msgstr "Activar mensajes de depuración"
+
+#~ msgid "Write logging messages to a file instead to stderr."
+#~ msgstr "Escribir mensajes de registro a un archivo en vez de a stderr."
+
+#~ msgid "Timeout for D-BUS service (default: 600, 0: run forever)"
+#~ msgstr ""
+#~ "Tiempo para el servicio D-BUS (predeterminado: 600, 0: se ejecuta siempre)"
+
+#~ msgid "Add a custom handler directory."
+#~ msgstr "Añadir un directorio de manejador personalizado."
+
+#~ msgid "Run on session D-BUS (only for testing)"
+#~ msgstr "Ejecutar sobre el D-BUS de la sesión (sólo para pruebas)"
+
+#~ msgid ""
+#~ "Use a different target kernel version than the currently running one."
+#~ msgstr ""
+#~ "Utilice una versión del núcleo de destino diferente a la actualmente en "
+#~ "ejecución."
+
+#~ msgid "AMD proprietary FGLRX graphics driver"
+#~ msgstr "Controlador gráfico FGLRX AMD propietario"
+
+#~ msgid "3D-accelerated proprietary graphics driver for AMD (ATI) cards."
+#~ msgstr ""
+#~ "Controlador gráfico propietario con aceleración 3D para tarjetas AMD "
+#~ "(ATI)."
+
+#~ msgid ""
+#~ "This driver is required to fully utilise the 3D potential of some AMD "
+#~ "(ATI) graphics cards, as well as provide 2D acceleration of newer cards."
+#~ msgstr ""
+#~ "Esto controlador es necesario para utilizar totalmente el potencial 3D de "
+#~ "algunas tarjetas gráficas AMD (ATI), así como para proporcionar "
+#~ "aceleración 2D para tarjetas más modernas."
+
+#~ msgid "Cannot connect to D-BUS"
+#~ msgstr "No se puede conectar con D-BUS"
+
+#~ msgid "Restricted Hardware Drivers"
+#~ msgstr "Controladores de hardware restringidos"
+
+#~ msgid "Hardware Drivers"
+#~ msgstr "Controladores de hardware"
+
+#~ msgid ""
+#~ "Proprietary drivers do not have public source code that %(os)s developers "
+#~ "are free to modify. They represent a risk to you because they are only "
+#~ "available on the types of computer chosen by the manufacturer, and "
+#~ "security updates to them depend solely on the responsiveness of the "
+#~ "manufacturer. %(os)s cannot fix or improve these drivers."
+#~ msgstr ""
+#~ "Los controladores privativos no tienen código fuente público que los "
+#~ "desarrolladores de %(os)s puedan modificar. Esto representa un riesgo "
+#~ "para usted porque sólo están disponibles en los tipos de equipos "
+#~ "seleccionados por el fabricante, y las actualizaciones de seguridad "
+#~ "dependen únicamente de la sensibilidad del fabricante. %(os)s no puede "
+#~ "arreglar ni mejorar esos controladores."
+
+#~ msgid "System policy prevents checking driver status"
+#~ msgstr ""
+#~ "La política del sistema impide la comprobación del estado del controlador"
+
+#~ msgid "System policy prevents installation/removal of device drivers"
+#~ msgstr ""
+#~ "La política del sistema impide la instalación o desinstalación de "
+#~ "controladores de dispositivos"
+
+#~ msgid "System policy prevents querying device drivers"
+#~ msgstr ""
+#~ "La política del sistema impide consultar los controladores de dispositivos"
+
+#~ msgid "System policy prevents querying driver databases for updates"
+#~ msgstr ""
+#~ "La política del sistema impide consultar bases de datos en busca de "
+#~ "actualizaciones"

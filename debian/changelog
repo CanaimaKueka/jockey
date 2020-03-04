@@ -1,0 +1,318 @@
+jockey (0.9.7+Canaima2.1-1) kerepakupai; urgency=low
+
+  * [b04b5e1] Adding support to Realtek RTL8111/8168B Gigabit Ethernet controller
+  * [c1c9962] Adding other devices supported by r8169
+  * [20e7c0a] Adding support for rtl8192se module
+  * [64c4ac1] Removing unnecessary modaliases overrides
+  * [faca2e3] Creating Generic ModaliasOverrideHandler
+  * [d5ca7ef] Adding Handlers for several kernel modules that needs firmware
+  * [02961ea] Changing centrinon_1000_wireless_firmware.py to iwlwifi.py
+  * [59b7775] Adding Handler for brcmsmac kernel module.
+  * [221f6b6] Updating Tranlations
+
+ -- Erick Birbe <erickcion@gmail.com>  Mon, 21 Oct 2013 15:54:53 +0000
+
+jockey (0.9.7+Canaima2-1) kerepakupai; urgency=low
+
+  * [d656930] Fixing python-support syntax error report (ticket #747)
+  * [d608e75] Adding python-support to debian/control file
+
+ -- Erick Birbe <erickcion@gmail.com>  Wed, 04 Sep 2013 18:09:31 +0000
+
+jockey (0.9.7+Canaima1-1) unstable; urgency=low
+
+  * [53b533c] Adding PRO/Wireless 3945ABG/BG modalias
+
+ -- Erick Birbe <erickcion@gmail.com>  Wed, 28 Aug 2013 13:57:35 -0430
+
+jockey (0.9.7+1-20) unstable; urgency=low
+
+  * [63adca1] Fix check_cache and write_cache calls when disabling a device
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Mon, 01 Jul 2013 14:54:17 -0430
+
+jockey (0.9.7+1-19) unstable; urgency=low
+
+  * [0126f0e] Fix Handler.free to correctly handle devices in modalias overrides
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Mon, 01 Jul 2013 14:27:47 -0430
+
+jockey (0.9.7+1-18) unstable; urgency=low
+
+  * [cc43d21] Make sure that the cache directory exists before writting the check cache
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Mon, 01 Jul 2013 09:33:10 -0430
+
+jockey (0.9.7+1-17) unstable; urgency=low
+
+  * [c6197ff] Se cambia el nombre de la seccion de paquetes no libres a non-free
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Mon, 01 Jul 2013 08:59:19 -0430
+
+jockey (0.9.7+1-16) unstable; urgency=low
+
+  * [c3a2ee7] Use GUdev to get the hardware list on jockey.detection
+  * [cb663c8] Fix repeated notifications by setting an internal session id for device checks
+  * [43c3024] Leave the ignore switch enabled for unsupported drivers
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Sun, 30 Jun 2013 12:53:09 -0430
+
+jockey (0.9.7+1-15) unstable; urgency=low
+
+  * [a4436ab] Fix error in Handler.hw_description
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Thu, 13 Jun 2013 05:24:47 +0000
+
+jockey (0.9.7+1-14) unstable; urgency=low
+
+  * [8a53e1e] Fix exception in the base handler class when getting device info from detected hwids
+  * [ffc6133] Add a DEVICE_CACHE to the devices monitor and reduce the number of --check spawns to reduce overhead and fix multiple notifications of the same device
+  * [3ff173e] Do not ignore unsupported drivers
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Sun, 09 Jun 2013 07:59:01 +0000
+
+jockey (0.9.7+1-13) unstable; urgency=low
+
+  * Adding a device cache to the device monitor to fix repeated notifications and reduce --check calls
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Mon, 08 Jun 2013 00:05:13 +0000
+
+jockey (0.9.7+1-12) unstable; urgency=low
+
+  * [3fa3254] Change jockey.oslib.OSLib.is_package_free to use non-free repo name from Canaima (no-libres)
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Mon, 20 May 2013 01:05:13 +0000
+
+jockey (0.9.7+1-11) unstable; urgency=low
+
+  [ Sebastián Magrí ]
+  * [35f7cea] Fix (again) translations in notifications
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Sun, 05 May 2013 21:53:40 -0430
+
+jockey (0.9.7+1-10) unstable; urgency=low
+
+  [ Sebastián Magrí ]
+  * [25e0beb] Prevent firing the active event on the ignore switch when refreshing the treeview
+  * [b270e6f] Fix translations of installation notifications
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Sun, 05 May 2013 21:31:56 -0430
+
+jockey (0.9.7+1-9) unstable; urgency=low
+
+  [ Sebastián Magrí ]
+  * [cdaa4ad] Ignore unsupported drivers by default on --check
+  * [785cc9f] In KernelModuleHandler, if the package is available, use it to get information about the license
+  * [40f180d] Make unsupported have precedence over ignored. Fix notification translation. Move handler name handling to the AbstractUI for dummy handler
+  * [c2d195a] Update Spanish translations
+  * [3fa1ccc] Fix duplicate entry in b43 modaliases override file
+  * [6cc4281] Change the ignore button with a switch
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Sun, 05 May 2013 10:59:47 -0430
+
+jockey (0.9.7+1-8) unstable; urgency=low
+
+  [ Sebastián Magrí ]
+  * [0192912] Install gettext into jockey.handlers module
+  * [b1ef227] Do not install the backend service in debug mode by default
+  * [1c0398d] Improve the UI presentation of unsupported drivers. Refactor default descriptions mangling to make translations work
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Sat, 04 May 2013 19:54:24 -0430
+
+jockey (0.9.7+1-7) unstable; urgency=low
+
+  [ Sebastián Magrí ]
+  * [0192912] Install gettext into jockey.handlers module
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Sat, 04 May 2013 12:49:18 -0430
+
+jockey (0.9.7+1-6) unstable; urgency=low
+
+  [ Sebastián Magrí ]
+  * [b432c17] Include the device monitor in the -gtk package
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Sat, 04 May 2013 12:18:58 -0430
+
+jockey (0.9.7+1-5) unstable; urgency=low
+
+  [ Sebastián Magrí ]
+  * [483ba0c] Update translations template
+  * [255a13e] Fix help files installation location for jockey-common
+  * [bb4ed4f] Set up installed files for jockey-gtk and add abstract ui files to jockey-common package
+  * [aac0a01] Add missing files to jockey-gtk.install
+  * [35e2862] The autostart final location should be handled by packages
+  * [1c7fa43] Do not show the progress dialog in the taskbar or the app pager. Use a popup window and the jockey icon for it.
+  * [60d7149] Update translations
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Magrí <sebasmagri@gmail.com>  Sat, 04 May 2013 11:56:58 -0430
+
+jockey (0.9.7+1-4) unstable; urgency=low
+
+  [ Sebastián Magrí ]
+  * [483ba0c] Update translations template
+  * [255a13e] Fix help files installation location for jockey-common
+  * [bb4ed4f] Set up installed files for jockey-gtk and add abstract ui files to jockey-common package
+  * [aac0a01] Add missing files to jockey-gtk.install
+  * [35e2862] The autostart final location should be handled by packages
+  * [1c7fa43] Do not show the progress dialog in the taskbar or the app pager. Use a popup window and the jockey icon for it.
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Ramírez Magrí <sebasmagri@gmail.com>  Sun, 28 Apr 2013 10:02:07 -0430
+
+jockey (0.9.7+1-3) unstable; urgency=low
+
+  [ Sebastián Ramírez Magrí ]
+  * [4949b24] Do not use gettext on debian/* files
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Ramírez Magrí <sebasmagri@gmail.com>  Sun, 28 Apr 2013 00:39:24 -0430
+
+jockey (0.9.7+1-2) unstable; urgency=low
+
+  [ Sebastián Ramírez Magrí ]
+  * [3e48cbc] Add compatibily with GTK2 and add automatic updates over .pot files
+    --HG--
+    branch : canaima
+
+  [ Sebastián Magrí ]
+  * [dbcdcc2] Migrate setup.py away from python-distutils-extras to pure distutils
+  * [848fbe7] Fixes and improvements over setup.py
+  * [bef59d0] Change DBUS service configuration to reflect new location of jockey-backend script
+  * [d40e932] Use xkit as a name for the xorgparser module
+  * [108ef4c] Create two decorators, reset_timeout and CheckPolkitPrivileges to wrap D-BUS methods and simplify Backend class
+
+  [ Sebastian Magri ]
+  * [b32fc73] Install GTK glade files
+  * [20c51e8] Compatibility fixes for GTK2 and python-apt 0.8
+  * [3a83a2f] Change imports on XKit to xkit
+  * [b402b8e] Fix package name in dvb_usb_firmware handler
+  * [2322078] Fix coding headers for emacs to stop complaining about it
+  * [f3ba7d3] Add .gitignore
+  * [fb0d63a] Changes in oslib.py due to python-apt API changes
+  * [d382272] Reenable gobject-introspection imports and fix some GTK3 variables
+  * [52b1e5a] Add first version of a handler for the Intel Centrino-N 1000 wireless driver
+
+  [ Sebastián Magrí ]
+  * [bec461d] Synchronize latest changes regarding new handlers, setup files, and new driver databases
+  * [eb6e581] Finish preliminary version of KmutoHLCDriverDB
+
+  [ sebasmagri ]
+  * [4cb21bc] Rollback setup.py to use distutils-extra
+
+  [ Sebastián Magrí ]
+  * [ff5e987] Actually revert the setup.py file
+  * [fa48e3f] Use Glib.Error instead of deprecated Glib.GError
+  * [0e6f90a] Improvements over the KmutoHCLDriverDB and activate its usage in detection
+  * [17b3d68] Add an udev rule to run detection automatically when a device is plugged in
+  * [230c252] Change package name for the broadcom_wl handler to match Debian's package name
+  * [7d0e73b] Fix udev rule to run check on device add/change
+  * [46c9b2c] Disable help while Ubuntu specific stuff is cleaned up
+  * [996987e] Remove some Ubuntu specific messages from vmware handler
+  * [4fccbd4] Fix installation of udev rule
+
+  [ armadillo ]
+  * [24c3c12] Fix debian directory and kernel problems
+
+  [ root ]
+  * [d57a39c] Add again desktop file in xdg directory
+
+  [ Sebastián Magrí ]
+  * [408601c] Dropping Kmuto Hardware database and adding first revision of a Dummy Handler for unsupported hardware
+  * [c58beff] Use dummy handler only on inactive devices
+  * [ff415c9] Improve information for unsupported USB and PCI devices
+  * [5b4c7fc] Do not show active devices
+  * [39e9a8e] Disable toggle button when the device uses DummyHandler
+  * [5c934f9] Do not run the backend in debug mode by default
+  * [39c846d] Cleanup jockey-gtk and backend
+  * [dd464e9] Get jockey-backend out of share and into ubin
+  * [e4a5505] Merge translations in po/
+  * [127cc85] Update Spanish translations
+  * [bd67a8c] Merge new translation strings
+  * [f0d012c] Put the backend back in debug mode
+  * [085afa7] Add debug sentences on detection process and update translation strings
+  * [0ca089e] Improvements over the DummyHandler related logic
+  * [6d9ea3b] Add a check for missing firmware for dummyhandler use cases
+  * [5fe5ef0] Include driver information in DummyHandler
+  * [419a9ac] Fix NameError when using DummyHandler
+  * [8a68fbe] Fix more syntax errors in DummyHandlers...
+  * [c5b9615] Handle cases with missing entries in modinfo.
+  * [be293ad] Fix formatting of handler description
+  * [13cd17e] Update udev rules and autostart scripts to run regardless of the existance of /var/cache/jockey/check and to always use jockey-gtk so notifications get displayed
+  * [21d7ae8] Recheck when a device is removed
+  * [eec0a01] Mayor reorganization of modules. Adding jockey-device-monitor to get live notifications of new drivers/hardware. Some cleanups
+  * [a355058] Switch to GLib.GError when catching exceptions in gtk. Put device monitor autostart file into /etc/xdg/autostart
+  * [66e56c1] Add missing imports in jockey-gtk
+  * [f0e5bad] Set backend's timeout to 300s. Do not shutdown the backend after checks.
+  * [9596f08] Run check on device monitor invocation
+  * [b7a94ae] Use an unicode string for driver description in dummy handlers
+  * [2b04dcc] More unicode in dummy handler's driver info
+  * [120fed7] Skip SSB devices on detection to avoid duplicated devices in the list. Finally handle unicode in module author's name in DummyHandler
+  * [02d85b7] Respect ignored modules on DummyHandler instantiation
+  * [9f12f3b] Force redetection of hardware in backend.detect
+  * [33a9a4f] Don't block in the device monitor when calling the gtk ui
+  * [264134a] Try to always get a description for all handlers
+
+  [ sebasmagri@gmail.com ]
+  * [9b3126b] Remove lxml import. It's not needed anymore.
+
+  [ Sebastián Magrí ]
+  * [6a07724] Drop unused import in jockey.ui
+  * [92783e7] Do not use a cache for detection._get_modaliases and force redetection on On The Fly j-d-m checks
+  * [6261441] Do not store hardware cache in _get_modaliases
+  * [808ef39] Change the dummy handlers id
+  * [2cae929] Do not ignore kernel modules in the modaliases overrides provided by Jockey during detection
+  * [bb34bec] Avoid having UI elements not updated during initialization
+  * [1594b40] Debug queries to LocalKernelModulesDriverDB
+  * [f8ce25a] Always reload modules in KernelModuleHandler to handle cases in which firmware changes
+  * [80acb6b] Add modalias override to fix detection of Broadcom BTUSB-WIFI devices
+  * [9ab36ae] Improve Broadcom support by adding more aliases to b43 overrides file
+  * [15aa287] Use GLib.spawn_async to launch check process
+  * [7995c73] More spawn_async and drop unused modules and imports, reducing memory usage in 60%.
+  * [2e70f5c] Drop requirement on AppIndicator and stop using TrayIcons to use libnotify's actions instead
+  * [6ea4ba3] Add modaliases override file for ath9k_htc
+  * [70bc0ee] Show a notification at the end of device activation. Use GLib's main loop instead of Gtk's so we get more control over the loop's status
+  * [ed0d0e1] Do not show jockey in the control panel as it is not working atm
+  * [b33c390] Add help files for jockey taken from ubuntu-docs package
+  * [99a4086] Rename help section from hardware to jockey to avoid conflicts with GNOME docs
+  * [74383ed] Do not install jockey-kde as it is most possibly broken atm
+  * [0d2a8a6] Fix help files layout
+  * [306cac2] Replace old docbook docs with new mallard docs based in Ubuntu hardware user docs
+  * [6c2556b] Minor fix in docs and add Spanish translations
+  * [4550041] Drop control panel category from .desktop file
+  * [3c1d6a2] Update help files to use an index
+  * [73c3230] Minor pep8 fixes on setup.py
+  * [9cd5128] Fix help files translation for Remove in Spanish
+  * [fceeb47] Enable help files from the UI
+  * [9e5e5d9] Stop using gobject to call yelp and use GLib instead
+  * [9144ecb] Settle the basis for ignored drivers
+  * [8f15f77] Enable UI actions to ignore and notify about drivers. Update glade ui files for gtk3
+  * [c45ccb0] Update icon files
+  * [73aa5a0] Use a different icon for ignored drivers and set an icon for the ignore button
+  * [48b71c5] Fix package description formatting
+  * [8f6f715] Fix the determination of license freedom from package sections in Debian
+
+  [ Sebastián Ramírez Magrí ]
+
+ -- Sebastián Ramírez Magrí <sebasmagri@gmail.com>  Sat, 27 Apr 2013 23:51:44 -0430
+
+jockey (0.9.7+1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Sebastián Ramírez Magrí <sebasmagri@gmail.com>  Sat, 27 Apr 2013 23:48:31 -0430

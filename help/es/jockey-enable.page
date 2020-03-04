@@ -1,0 +1,31 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="jockey-enable">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <link type="next" xref="jockey-disable"/>
+  </info>
+
+  <title>02-. Activando un controlador propietario</title>
+
+  <steps>
+    <title>Para utilizar un controlador propietario para un dispositivo</title>
+    <item>
+      <p>Para ejecutar <app>Jockey</app>, presione <keyseq><key>Alt</key><key>F2</key></keyseq>, introduzca <cmd>jockey-gtk</cmd> y presione <key>Enter</key></p>
+    </item>
+    <item>
+      <p>Busque el controlador que desea activar y lea su descripción.</p>
+    </item>
+    <item>
+      <p>Presione <gui style="button">Activar</gui> para instalar el controlador. Puede ser que necesite introducir la contraseña de administrador.</p>
+    </item>
+    <item>
+      <p>El controlador podría tener que ser descargado e instalado.</p>
+    </item>
+    <item>
+      <p>Puede que necesite reiniciar su computador para finalizar la activación del controlador.</p>
+    </item>
+  </steps>
+  
+</page>

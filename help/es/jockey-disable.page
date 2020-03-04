@@ -1,0 +1,28 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="jockey-disable">
+
+  <info>
+    <link type="guide" xref="index"/>
+  </info>
+
+  <title>03-. Desactivando un controlador propietario</title>
+
+  <p>Si un controlador propietario está ocasionando problemas, o si usted solo quiere desactivarlo, siga el procedimiento a continuación:</p>
+  <steps>
+    <title>Desactivar un controlador propietario</title>
+    <item>
+      <p>Para ejecutar <app>Jockey</app>, presione <keyseq><key>Alt</key><key>F2</key></keyseq>, introduzca <cmd>jockey-gtk</cmd> y presione <key>Enter</key></p>
+    </item>
+    <item>
+      <p>Busque el controlador que desea activar y lea su descripción.</p>
+    </item>
+    <item>
+      <p>Presione <gui style="button">Eliminar</gui> para desactivar el controlador y continuar utilizando un controlador libre, si está disponible. Puede que tenga que introducir la contraseña de administrador.</p>
+    </item>
+    <item>
+      <p>Puede ser necesario que reinicie su computador para finalizar la desactivación del controlador.</p>
+    </item>
+  </steps>
+
+</page>

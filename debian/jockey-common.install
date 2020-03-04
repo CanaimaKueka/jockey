@@ -1,0 +1,11 @@
+usr/lib/python*/*/jockey/*.py
+usr/lib/python*/*/jockey/ui/*.py
+usr/lib/python*/*/*.egg-info
+usr/share/locale
+usr/share/jockey/modaliases
+usr/share/jockey/handlers
+etc/dbus-1/system.d/
+usr/share/dbus-1/system-services
+usr/share/polkit-1
+usr/bin/jockey-backend
+usr/bin/jockey-text

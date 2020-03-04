@@ -1,0 +1,28 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="jockey-disable">
+
+  <info>
+    <link type="guide" xref="index"/>
+  </info>
+
+  <title>03-. Disabling a proprietary driver</title>
+
+  <p>If a proprietary driver is causing problems, or you would just like to turn it off, follow the procedure below:</p>
+  <steps>
+    <title>Disable a proprietary driver</title>
+    <item>
+      <p>To launch <app>Jockey</app>, press <keyseq><key>Alt</key><key>F2</key></keyseq>, enter <cmd>jockey-gtk</cmd> and press <key>Enter</key></p>
+    </item>
+    <item>
+      <p>Find the driver which you would like to disable and read the description.</p>
+    </item>
+    <item>
+      <p>Press <gui style="button">Remove</gui> to disable the driver and continue using a free driver, if available. You may be asked to enter your password.</p>
+    </item>
+    <item>
+      <p>You may need to restart your computer to finish disabling the driver.</p>
+    </item>
+  </steps>
+
+</page>
